@@ -718,19 +718,20 @@ def Line_Graph(data: dict):
         data (dict): A dictionary containing XRD data with calculated peak mixtures.
     """
 
-    amorphous_percentages = [file_data['amorphous_percentage'] for file_data in data.values()]
-    amorphous_percentages_uncertainty = [file_data['amorphous_percent_uncertainty'] for file_data in data.values()]
-    crystalline_percentages = [file_data['crystalline_percentage'] for file_data in data.values()]
-    crystalline_percentages_uncertainty = [file_data['crystalline_percent_uncertainty'] for file_data in data.values()]
-    amorphous_percentages_intensity = [file_data['amorphous_percentage_intensity'] for file_data in data.values()]
-    amorphous_percentages_intensity_uncertainty = [file_data['amorphous_percent_intensity_uncertainty'] for file_data in data.values()]
-    crystalline_percentages_intensity = [file_data['crystalline_percentage_intensity'] for file_data in data.values()]
-    crystalline_percentages_intensity_uncertainty = [file_data['crystalline_percent_intensity_uncertainty'] for file_data in data.values()]
-    amorphous_percentages_sum = [file_data['amorphous_percentage_sum'] for file_data in data.values()]
-    amorphous_percentages_sum_uncertainty = [file_data['amorphous_percent_sum_uncertainty'] for file_data in data.values()]
-    crystalline_percentages_sum = [file_data['crystalline_percentage_sum'] for file_data in data.values()]
-    crystalline_percentages_sum_uncertainty = [file_data['crystalline_percent_sum_uncertainty'] for file_data in data.values()]
-    omegas = [file_data['omega'] for file_data in data.values()]
+    # Unpack, and reverse for left to right reading
+    amorphous_percentages = [file_data['amorphous_percentage'] for file_data in data.values()][::-1]
+    amorphous_percentages_uncertainty = [file_data['amorphous_percent_uncertainty'] for file_data in data.values()][::-1]
+    crystalline_percentages = [file_data['crystalline_percentage'] for file_data in data.values()][::-1]
+    crystalline_percentages_uncertainty = [file_data['crystalline_percent_uncertainty'] for file_data in data.values()][::-1]
+    amorphous_percentages_intensity = [file_data['amorphous_percentage_intensity'] for file_data in data.values()][::-1]
+    amorphous_percentages_intensity_uncertainty = [file_data['amorphous_percent_intensity_uncertainty'] for file_data in data.values()][::-1]
+    crystalline_percentages_intensity = [file_data['crystalline_percentage_intensity'] for file_data in data.values()][::-1]
+    crystalline_percentages_intensity_uncertainty = [file_data['crystalline_percent_intensity_uncertainty'] for file_data in data.values()][::-1]
+    amorphous_percentages_sum = [file_data['amorphous_percentage_sum'] for file_data in data.values()][::-1]
+    amorphous_percentages_sum_uncertainty = [file_data['amorphous_percent_sum_uncertainty'] for file_data in data.values()][::-1]
+    crystalline_percentages_sum = [file_data['crystalline_percentage_sum'] for file_data in data.values()][::-1]
+    crystalline_percentages_sum_uncertainty = [file_data['crystalline_percent_sum_uncertainty'] for file_data in data.values()][::-1]
+    omegas = [file_data['omega'] for file_data in data.values()][::-1]
 
     x_axis = np.arange(len(omegas))
 
