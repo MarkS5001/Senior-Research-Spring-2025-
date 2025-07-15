@@ -30,7 +30,7 @@ def plot_omega_vs_depth(path_name: str):
     ax_inset.plot(omega, depth_curve_fit, marker='o')
     ax_inset.plot(omega, depth_intensity, marker='o')
     ax_inset.plot(omega, depth_summation, marker='o')
-    ax_inset.set_title("Small Omega")
+    # ax_inset.set_title("Small Omega")
 
     ax_inset.set_xlim(-0.025, .6)
     ax_inset.set_ylim(-0.2,4)
