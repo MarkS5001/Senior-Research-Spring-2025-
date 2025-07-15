@@ -502,7 +502,7 @@ def bar_graph_depths(path_name: str, area: str = ''):
     plt.xlabel('Omega (°) and Depth (μm)')
     plt.ylabel('Mix')
     plt.title('Depths for Mixtures'+ area)
-    plt.xticks(ticks=x, labels=[f"{df['omega'][i]}ω-{df['effective_depth'+ area][i]:.2f}μm"for i in range(len(df['omega']))], rotation=90)
+    plt.xticks(ticks=x, labels=[f"{df['omega'][i]}-{df['effective_depth'+ area][i]:.2f}"for i in range(len(df['omega']))], rotation=90)
     plt.legend()
     plt.tight_layout()
     plt.show()
@@ -742,10 +742,10 @@ def Line_Graph(data: dict):
     plt.plot(x_axis, amorphous_percentages_sum, label='Amorphous Percentage Sum', marker='^')
     plt.plot(x_axis, crystalline_percentages_sum, label='Crystalline Percentage Sum', marker='^')
 
-    plt.xlabel('Omega (ω)')
+    plt.xlabel('Omega (°)')
     plt.ylabel('Percentage')
-    plt.title('Amorphous and Crystalline Percentages')
-    plt.xticks(x_axis, [f"{omega}ω" for omega in omegas], rotation=90)
+    plt.title('Amorphous Percentages')#and Crystalline 
+    plt.xticks(x_axis, [f"{omega}" for omega in omegas], rotation=90)
     plt.legend()
     # plt.grid(True)
     plt.tight_layout()
