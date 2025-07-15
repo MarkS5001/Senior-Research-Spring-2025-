@@ -23,9 +23,10 @@ def plot_omega_vs_depth(path_name: str):
     ax.set_xticks(omega[5:], rotation=90)
     ax.set_xticklabels(omega[5:], rotation=90)
     ax.set_yticks(depth_curve_fit[5::2])
+    ax.invert_yaxis() # Flip the y-axis so that depth increases downwards
 
     # Add inset axes in the lower left corner (loc=3)
-    ax_inset = inset_axes(ax, width="40%", height="30%", loc=4, bbox_to_anchor=(-0.05, 0.15, 1, 1), bbox_transform=ax.transAxes)
+    ax_inset = inset_axes(ax, width="40%", height="30%", loc=3, bbox_to_anchor=(0.1, 0.13, 1, 1), bbox_transform=ax.transAxes)
     ax_inset.plot(omega, depth_curve_fit, marker='o')
     ax_inset.plot(omega, depth_intensity, marker='o')
     ax_inset.plot(omega, depth_summation, marker='o')
@@ -36,6 +37,7 @@ def plot_omega_vs_depth(path_name: str):
     ax_inset.set_xticks(omega[:5], rotation=90)
     ax_inset.set_xticklabels(omega[:5], rotation=90)
     ax_inset.set_yticks(depth_curve_fit[:5:2])
+    ax_inset.invert_yaxis() # Flip the y-axis so that depth increases downwards
 
     plt.tight_layout()
     plt.show()
