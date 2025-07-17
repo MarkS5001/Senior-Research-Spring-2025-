@@ -4,8 +4,11 @@
 \usepackage{float} % To correct image positions
 \usepackage{multicol}
 \usepackage[colorlinks=true, allcolors=black]{hyperref} % I want cross referrences
+\usepackage[numbers]{natbib}
+\bibliographystyle{plainnat}
+\usepackage[nottoc]{tocbibind} % Includes "References" in the table of contents
 
-\title{Final Report}
+\title{RCW Report}
 \author{Mark Smith \vspace{1.5mm} \\ smi20046@byui.edu \vspace{1.5mm} \\ BYU-Idaho Physics}
 \date{Spring 2025}
 
@@ -54,7 +57,7 @@
 \end{figure}
 
     Amorphous solids under the x-ray beam behave in a similar manner. 
-    The difference being in that because every atom is arranged randomly, there are an infinite number of planes with their own spacing. 
+    The difference being because every atom is arranged randomly, there are an infinite number of planes with their own spacing. 
     As shown in figure \ref{fig:pure amorphous XRD scan}, this correlates to a moderately low angle hump (called an amorphous hump) with all spacings that would correlate to higher angled peaks being nonexistent because of deconstructive interference.
 
 % Show picture of amorphous XRD pattern
@@ -110,7 +113,7 @@
      attenuated by 90\%, and all relevant data comes from that. The last assumption 
      is that the sample is put in its perferred orientation for the silicon structure 
      to be alined with the x-ray beam.
-
+    
     \subsubsection*{Method 1: Ratio}
 
         With this method the program takes the max intensity of the amorphous hump, and the max intensity of the most intense crystalline peak, and takes the ratio of them. 
@@ -170,18 +173,16 @@
     Creating an analysis to correct for the real diffusion process by not assuming uniform layers.
     This would produce the greatest impact on the real world application of these results.
 
-\section{References}
-    % Pandey, A., Dalal, S., Dutta, S. et al. Structural characterization of polycrystalline thin films by X-ray diffraction techniques. J Mater Sci: Mater Electron 32, 1341-1368 (2021). https://doi.org/10.1007/s10854-020-04998-w
-    
-    % AXT PTY LTD. (2021, September 24). \emph{X-Ray Diffraction for Materials Science - AXT Pty Ltd.} https://www.axt.com.au/x-ray-diffraction-for-materials-science/ 
-
+% \bibliography{final_report}
 
 \end{multicols}
+\vspace{75mm}
+\raggedright
+Bibliography is available upon request
 
-\section{Notable Things Learned}
-
-
+% \section{Notable Things Learned}
 
 % \include{code}
 
 \end{document}
+\citep{pandey_structural_2021}
