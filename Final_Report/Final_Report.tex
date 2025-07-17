@@ -3,11 +3,11 @@
 \usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry} % Americanize the paper
 \usepackage{float} % To correct image positions
 \usepackage{multicol}
-\usepackage[colorlinks=true, allcolors=blue]{hyperref} % I want cross referrences
+\usepackage[colorlinks=true, allcolors=black]{hyperref} % I want cross referrences
 
 \title{Final Report}
-\author{Mark Smith}
-\date{\today}
+\author{Mark Smith \vspace{1.5mm} \\ smi20046@byui.edu \vspace{1.5mm} \\ BYU-Idaho Physics}
+\date{Spring 2025}
 
 \begin{document}
 
@@ -15,32 +15,47 @@
 
 % \newpage
 
-% \section*{\centering{Abstract}}
+\section*{\centering{Abstract}}
+    In this work, grazing incidence X-ray diffraction (GIXRD) is utilized to investigate the depth profile of dopants in silicon. 
+    By systematically varying the X-ray incidence angle, one can precisely control the depth penetrated into doped silicon samples. 
+    This approach enables a non-destructive analysis of how dopant concentration evolves with depth. 
+    The findings provide crucial insights into the distribution and behavior of dopants, which is essential for optimizing semiconductor device performance and fabrication processes.
 
 % \newpage
 
 % \tableofcontents
 
 % \newpage
-
+\begin{multicols}{2}
+    
 \section{Background}
 
-    Solids can be divided into two broad types: crystalline, and amorphous. Crystalline solids have repeating structure that is predictable, and is consistent throughout the entire solid. Amorphous solids have no repeating structures, and have no preferred orientation.
-    % For the samples used in this report they are phosphorus diffused into silicon, phosphorus is an amorphous solid, while silicon is a crystalline solid.
+    Solids can be divided into two broad types: crystalline, and amorphous. 
+    Crystalline solids have repeating structure that is predictable, and is consistent throughout the entire solid. 
+    Amorphous solids have no repeating structures, and have no preferred orientation.
     
-    X-Ray diffraction (XRD) utilizes x-rays to non-destructively probe the inner atomic layers of materials. In this work it is used to probe different depths of doped silicon to see dopant levels as a function of depth. As the x-ray interacts with the sample it will reflect, refract, and diffract. Diffraction is the process of note, and the only one that will be investigated for this work. 
+    X-Ray diffraction (XRD) utilizes x-rays to non-destructively probe the inner atomic layers of materials. 
+    In this work it is used to probe different depths of doped silicon to see dopant levels as a function of depth. 
+    As the x-ray interacts with the sample it will reflect, refract, and diffract. 
+    Diffraction is the process of note, and the only one that will be investigated for this work. 
 
-    When XRD is used on crystalline solids a diffraction pattern will emerge. The spacing between the atoms acts as the slit size that allows for the diffraction interference pattern, in accordance with Bragg's Law ($2d\sin\theta=n\lambda$). There also exist different spacings between atoms that are not nearest neighbors. Each of these different spacings are relegated into planes that act like a diffraction grating, existing for every possible repeating spacing within the atom. All of these in superposition produce a graph that shows sharp peaks correlating directly to the atomic plane's spacing (show in figure \ref{fig:pure crystalline XRD scan}).
+    When XRD is used on crystalline solids a diffraction pattern will emerge. 
+    The spacing between the atoms acts as the slit size that allows for the diffraction interference pattern, in accordance with Bragg's Law ($2d\sin\theta=n\lambda$). 
+    There also exist different spacings between atoms that are not nearest neighbors. 
+    Each of these different spacings are relegated into planes that act like a diffraction grating, existing for every possible repeating spacing within the atom. 
+    All of these in superposition produce a graph that shows sharp peaks correlating directly to the atomic plane's spacing (shown in figure \ref{fig:pure crystalline XRD scan}).
     
 % Show picture of crystalline XRD pattern
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\linewidth]{crystalline XRD scan.png}
+    \includegraphics[width=\linewidth]{crystalline XRD scan.png}
     \caption{Diffractogram of pure crystalline solid}
     \label{fig:pure crystalline XRD scan}
 \end{figure}
 
-    Amorphous solids under the x-ray beam behave in a similar manner. The difference being in that because every atom is arranged randomly, there are an infinite number of planes with their own spacing. As shown in figure \ref{fig:pure amorphous XRD scan}, this correlates to a moderately low angle hump (called an amorphous hump) with all spacings that would correlate to higher angled peaks being nonexistent because of deconstructive interference.
+    Amorphous solids under the x-ray beam behave in a similar manner. 
+    The difference being in that because every atom is arranged randomly, there are an infinite number of planes with their own spacing. 
+    As shown in figure \ref{fig:pure amorphous XRD scan}, this correlates to a moderately low angle hump (called an amorphous hump) with all spacings that would correlate to higher angled peaks being nonexistent because of deconstructive interference.
 
 % Show picture of amorphous XRD pattern
 \begin{figure}[H]
@@ -50,46 +65,84 @@
     \label{fig:pure amorphous XRD scan}
 \end{figure}
 
-    The materials analyzed in this work are silicon doped with phosphorous, silicon doped with boron, and pure silicon. The first two materials will be best thought of as a gradient from pure phosphorous or boron to pure silicon from top to bottom. Silicon is a crystalline material, while phosphorous and boron are amorphous. This means that the diffractogram will be a superposition of an amorphous diffractogram on a crystalline diffractogram. The silicon sample was only used to verify the amorphous hump was present on the diffractograms.
+    The materials analyzed in this work are silicon doped with phosphorous, silicon doped with boron, and pure silicon. 
+    The first two materials will be best thought of as a gradient from pure phosphorous or boron to pure silicon from top to bottom. 
+    Silicon is a crystalline material, while phosphorous and boron are amorphous. 
+    This means that the diffractogram will be a superposition of an amorphous diffractogram on a crystalline diffractogram. 
+    The silicon sample was only used to verify that the amorphous hump was present on the diffractograms.
 
-    The XRD process used to incrementally probe deeper depths is called grazing incidence x-ray diffraction (GIXRD, also called glancing incidence x-ray diffraction). Using this method the XRD will hold the incident beam at a fixed angle (called omega ($\omega$)), while the diffracted beam side moves from a starting angle to an end angle. The detector is used in a 0D mode that simply counts all the x-rays that interact with it. The angle the counts correspond to is the angle the incident beam is added to the current diffracted beam angle all multiplied by 2: ($2(\omega+\theta)$). After the scan finishes a new scan is started with a different incident angle to probe a different depth.
+    The XRD process used to incrementally probe deeper depths is called grazing incidence x-ray diffraction (GIXRD, also called glancing incidence x-ray diffraction). 
+    Using this method the XRD will hold the incident beam at a fixed angle (called omega ($\omega$)), while the diffracted beam side moves from a starting angle to an end angle. 
+    The detector is used in a 0D mode that simply counts all the x-rays that interact with it. 
+    The angle the counts correspond to is the angle the incident beam is added to the current diffracted beam angle all multiplied by 2: $2(\omega+\theta)$. 
+    After the scan finishes a new scan is started with a different incident angle to probe a different depth.
 
 % Picture of GIXRD schematic
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.75\linewidth]{2theta scan diagram.jpg}
+    \includegraphics[width=\linewidth]{2theta scan diagram.jpg}
     \caption{Diagram of XRD using GIXRD}
     \label{fig:GIXRD diagram}
 \end{figure}
 
-    The different incident angles probe different depths due to the different path lengths they provide the x-rays as they interact with the samples. This is due to the exponential attenuation of intensity as the beam travels given by this equation: $I(y)=I_0e^{-\alpha y}$ with $\alpha=2\omega n_I/c$. With the complex index of refraction ($n_I$) strongly dependent on wavelength. The x-ray source is copper, producing $K_\alpha$, and $K_\beta$ in most abundance. Since one wavelength provides the most uniformity on the diffractogram, the incident beam optics include a filter to limit the unnecessary wavelength. $K_\alpha$ is what is most common, so the $K_\beta$ gets mostly filtered out by a nickel filter. This results in a x-ray beam that has a wavelength of 1.54\AA \space (uniformity in the wavelength is also necessary for Bragg's law).
+    The different incident angles probe different depths due to the different 
+    path lengths they provide the x-rays as they interact with the samples. This 
+    is due to the exponential attenuation of intensity as the beam travels given 
+    by this equation: $I(y)=I_0e^{-\alpha y}$ with $\alpha=2\omega n_I/c$. With 
+    the complex index of refraction ($n_I$) strongly dependent on wavelength. 
+    The x-ray source is copper, producing $K_\alpha$, and $K_\beta$ in most 
+    abundance. Since one wavelength provides the most uniformity on the diffractogram, 
+    the incident beam optics include a filter to limit the unnecessary wavelength. 
+    $K_\alpha$ is what is most common, so the $K_\beta$ gets mostly filtered out by a
+     nickel filter. This results in a x-ray beam that has a wavelength of 1.54\AA
+      \space (uniformity in the wavelength is also necessary for Bragg's law).
     
 \section{Methods}
 
-    Three different methods for determining relative percentages of the dopant in the substrate are used. The methods are: 1. Take the ratio of the max peak intensity, 2. Fit the peaks to a Gaussian curve, and find the integrated area, 3. Perform a summation to find the numerical integral. These methods are predicated on certain assumption. The mixture of the probed depth is uniform, which is a known simplification of how the diffused dopants actually spread. An analysis to correct this has been tried, but better data is needed for it to be effective. The intensity of the x-ray is also assumed to have attenuated by 90\%, and all relevant data comes from that.
+    Three different methods for determining relative percentages of the dopant
+     in the substrate are used. The methods are: 1. Take the ratio of the max 
+     peak intensity, 2. Fit the peaks to a Gaussian curve, and find the integrated 
+     area, 3. Perform a summation to find the numerical integral. These methods 
+     are predicated on certain assumptions. The mixture of the probed depth is 
+     uniform, which is a known simplification of how the diffused dopants actually 
+     spread (an analysis to correct this has been tried, but better data is needed 
+     for it to be effective). The intensity of the x-ray is also assumed to have 
+     attenuated by 90\%, and all relevant data comes from that. The last assumption 
+     is that the sample is put in its perferred orientation for the silicon structure 
+     to be alined with the x-ray beam.
 
-    \subsection*{Method 1: Ratio}
+    \subsubsection*{Method 1: Ratio}
 
-        With this method the program takes the max intensity of the amorphous hump, and the max intensity of the most intense crystalline peak, and takes the ratio of them. This ratio is then the relative percentages of the dopant and substrate.
+        With this method the program takes the max intensity of the amorphous hump, and the max intensity of the most intense crystalline peak, and takes the ratio of them. 
+        This ratio is then the relative percentages of the dopant and substrate.
 
-    \subsection*{Method 2: Curve Fitting}
+    \subsubsection*{Method 2: Curve Fitting}
 
-        This method takes the position and intensity values as the x and y inputs of scipy's curve\_fit function. It then outputs the best fit for amplitude, mean, standard deviation, and a background value. The function then gets integrated, and the ratio of the areas are taken.
+        This method takes the position and intensity values as the x and y inputs of scipy's curve\_fit function. 
+        It then outputs the best fit for amplitude, mean, standard deviation, and a background value. 
+        The function then gets integrated, and the ratio of the areas are taken.
 
-    \subsection*{Method 3: Summation}
+    \subsubsection*{Method 3: Summation}
 
-        This is an integral method as in method 2, but instead of fitting the data to a curve the data is integrated using discrete methods. The dx is the same for all points, so it is ignored with the foresight that it will be divided out. The sum is of all the intensity values for the peak or hump. A ratio is then taken from these sums.
+        This is an integral method as in method 2, but instead of fitting the data to a curve the data is integrated using discrete methods. 
+        The dx is the same for all points, so it is ignored with the foresight that it will be divided out. 
+        The sum is of all the intensity values for the peak or hump. 
+        A ratio is then taken from these sums.
 
 \section{Results}
     
     \begin{figure}[H]
         \centering
-        \includegraphics[width=.9\linewidth]{Mixture Line Graph (amorphous)_final.png}
+        \includegraphics[width=\linewidth]{Mixture Line Graph (amorphous)_final.png}
         \caption{Percent amorphous at selected omegas}
         \label{fig:line graph amorphous}
     \end{figure}
 
-    Figure \ref{fig:line graph amorphous} provides a concise overview of how the dopant and substrate mixture change with omega. All three methods show the amorphous percent decreases with depth, which is to be expected. The curve fitting and summation method provide excellent agreement with each other.
+    Figure \ref{fig:line graph amorphous} provides a concise overview of how the dopant and substrate mixture change with omega. 
+    All three methods show the amorphous percent decreases with depth, which is to be expected. 
+    They also show that the 0.005 omega is greater than 1 for the amorphous.
+    This is due to the crystalline peak being nonexistent, but the program is still trying to see a peak.
+    The curve fitting and summation method provide excellent agreement with each other, while the ratio method alludes to an exponential.
         
     \begin{figure}[H]
         \centering
@@ -98,13 +151,36 @@
         \label{fig:depth vs omega}
     \end{figure}
     
-    Figure \ref{fig:depth vs omega} shows the depth that correlates with the three methods. The methods have a close agreement, with the curve fit and summation method being right on top of each other.
+    Figure \ref{fig:depth vs omega} shows the depth that correlates with the three methods. 
+    The methods have a close agreement, with the curve fit and summation method being right on top of each other.
+    They all show a mostly linear relationship, which is to be expected since the indices of refraction are very similar for the dopant and substrate.
+    Nevertheless, it is interesting that the methods more closely agree at lower and high omegas, but not the middle omegas.
 
 \section{Conclusion}
 
-    Using GIXRD to determine relative composition of samples led to three analysis methods. Two of the methods utilized integration, and their results are closer together. One method used peak intensity ratios, and provides results that differ noticeably more. All three methods provide reasonable agreement as to the depth that each omega probed. Using GIXRD to see relative mixture amount dependent on depth has been shown to be useful, keeping in mind the limitations given by the assumptions.
-    
+    Using GIXRD to determine relative composition of samples led to three analysis methods. 
+    Two of the methods utilized integration, and their results are closer alined. 
+    One method used peak intensity ratios, and provides results that noticeably differ. 
+    All three methods provide reasonable agreement as to the depth that each omega probed. 
+    Using GIXRD to see relative mixture amount dependent on depth has been shown to be useful, keeping in mind the limitations given by the assumptions.
+
+\section{Future Work}
+
+    Performing this analysis on a known sample would be able to provide greater validity to the results of this analysis.
+    Creating an analysis to correct for the real diffusion process by not assuming uniform layers.
+    This would produce the greatest impact on the real world application of these results.
+
 \section{References}
+    % Pandey, A., Dalal, S., Dutta, S. et al. Structural characterization of polycrystalline thin films by X-ray diffraction techniques. J Mater Sci: Mater Electron 32, 1341-1368 (2021). https://doi.org/10.1007/s10854-020-04998-w
+    
+    % AXT PTY LTD. (2021, September 24). \emph{X-Ray Diffraction for Materials Science - AXT Pty Ltd.} https://www.axt.com.au/x-ray-diffraction-for-materials-science/ 
+
+
+\end{multicols}
+
+\section{Notable Things Learned}
+
+
 
 % \include{code}
 
