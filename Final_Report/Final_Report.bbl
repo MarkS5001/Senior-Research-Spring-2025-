@@ -1,8 +1,16 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Pandey, 2021]{Pandey}
-Pandey, A., D. S. D. S. e.~a. (2021).
-\newblock Structural characterization of polycrystalline thin films by x-ray diffraction techniques.
-\newblock {\em J Mater Sci: Mater Electron}, 32.
+\bibitem[Pandey et~al.(2021)Pandey, Dalal, Dutta, and Dixit]{pandey_structural_2021}
+Akhilesh Pandey, Sandeep Dalal, Shankar Dutta, and Ambesh Dixit.
+\newblock Structural characterization of polycrystalline thin films by {X}-ray diffraction techniques.
+\newblock \emph{Journal of Materials Science: Materials in Electronics}, 32\penalty0 (2):\penalty0 1341--1368, January 2021.
+\newblock ISSN 0957-4522, 1573-482X.
+\newblock \doi{10.1007/s10854-020-04998-w}.
+\newblock URL \url{http://link.springer.com/10.1007/s10854-020-04998-w}.
 
 \end{thebibliography}
