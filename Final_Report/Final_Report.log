@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.7.16)  17 JUL 2025 14:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.7.16)  17 JUL 2025 15:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -351,18 +351,18 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 46.
+(Font)              <7> on input line 47.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 46.
-<crystalline XRD scan.png, id=25, 693.792pt x 333.1647pt>
+(Font)              <5> on input line 47.
+<crystalline XRD scan.png, id=33, 693.792pt x 333.1647pt>
 File: crystalline XRD scan.png Graphic file (type png)
 <use crystalline XRD scan.png>
-Package pdftex.def Info: crystalline XRD scan.png  used on input line 54.
+Package pdftex.def Info: crystalline XRD scan.png  used on input line 55.
 (pdftex.def)             Requested size: 216.78923pt x 104.10353pt.
-<amorphous XRD scan.png, id=28, 693.792pt x 333.1647pt>
+<amorphous XRD scan.png, id=39, 693.792pt x 333.1647pt>
 File: amorphous XRD scan.png Graphic file (type png)
 <use amorphous XRD scan.png>
-Package pdftex.def Info: amorphous XRD scan.png  used on input line 66.
+Package pdftex.def Info: amorphous XRD scan.png  used on input line 67.
 (pdftex.def)             Requested size: 216.78923pt x 104.10353pt.
 
 
@@ -373,15 +373,15 @@ Package pdftex.def Info: amorphous XRD scan.png  used on input line 66.
 [1
 
 {c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./crystalline XRD scan.png> <./amorphous XRD scan.png>]
-<2theta scan diagram.jpg, id=44, 1475.5125pt x 830.10126pt>
+<2theta scan diagram.jpg, id=58, 1475.5125pt x 830.10126pt>
 File: 2theta scan diagram.jpg Graphic file (type jpg)
 <use 2theta scan diagram.jpg>
-Package pdftex.def Info: 2theta scan diagram.jpg  used on input line 86.
+Package pdftex.def Info: 2theta scan diagram.jpg  used on input line 87.
 (pdftex.def)             Requested size: 216.78923pt x 121.95122pt.
-<Mixture Line Graph (amorphous)_final.png, id=45, 693.792pt x 333.1647pt>
+<Mixture Line Graph (amorphous)_final.png, id=63, 693.792pt x 333.1647pt>
 File: Mixture Line Graph (amorphous)_final.png Graphic file (type png)
 <use Mixture Line Graph (amorphous)_final.png>
-Package pdftex.def Info: Mixture Line Graph (amorphous)_final.png  used on input line 139.
+Package pdftex.def Info: Mixture Line Graph (amorphous)_final.png  used on input line 140.
 (pdftex.def)             Requested size: 216.78923pt x 104.10353pt.
 
 
@@ -390,11 +390,45 @@ Package pdftex.def Info: Mixture Line Graph (amorphous)_final.png  used on input
 
 
 [2 <./2theta scan diagram.jpg>]
-<Depth vs Omega.png, id=59, 693.792pt x 333.1647pt>
+<Depth vs Omega.png, id=81, 693.792pt x 333.1647pt>
 File: Depth vs Omega.png Graphic file (type png)
 <use Depth vs Omega.png>
-Package pdftex.def Info: Depth vs Omega.png  used on input line 152.
+Package pdftex.def Info: Depth vs Omega.png  used on input line 153.
 (pdftex.def)             Requested size: 216.78923pt x 104.10353pt.
+ (./Final_Report.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 9--13
+\OT1/cmr/m/n/10 DIFFRAC-TION PRO-FILE MOD-EL-ING:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--13
+\OT1/cmr/m/n/10 IM-PLI-CA-TIONS FOR AMOR-PHOUS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--13
+[][]$\OT1/cmtt/m/n/10 https : / / ntrs . nasa . gov / api / citations /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--22
+\OT1/cmr/m/n/10 of glanc-ing in-ci-dence x-ray for depth
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--22
+\OT1/cmr/m/n/10 https : / / doi . org / 10 . 1016 / j . sab . 2007 . 02 . 012$.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--22
+\OT1/cmr/m/n/10 URL [][]$\OT1/cmtt/m/n/10 https : / / www . sciencedirect . com /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--22
+\OT1/cmtt/m/n/10 science / article / pii / S0584854707000444$[][]\OT1/cmr/m/n/10 .
+ []
 
 
 
@@ -402,28 +436,40 @@ Package pdftex.def Info: Depth vs Omega.png  used on input line 152.
 
 
 
+[3{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Mixture Line Graph (amorphous)_final.png> <./Depth vs Omega.png>]
+Underfull \hbox (badness 5954) in paragraph at lines 44--50
+\OT1/cmr/m/n/10 tumn W. Burns, Kathryn A. Lay-man,
+ []
 
-[3 <./Mixture Line Graph (amorphous)_final.png> <./Depth vs Omega.png>] (./Final_Report.aux)
+)
+
+
+
+
+
+
+
+[4] (./Final_Report.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-11>
  ***********
 Package rerunfilecheck Info: File `Final_Report.out' has not changed.
-(rerunfilecheck)             Checksum: 981E206DC1352937423C0A84CB3982CA;443.
+(rerunfilecheck)             Checksum: F83437FA60CF55A90585D3AD837104D3;706.
  ) 
 Here is how much of TeX's memory you used:
- 9693 strings out of 467816
- 149940 string characters out of 5436425
- 579071 words of memory out of 5000000
- 38206 multiletter control sequences out of 15000+600000
- 630773 words of font info for 53 fonts, out of 8000000 for 9000
+ 9749 strings out of 467816
+ 151046 string characters out of 5436425
+ 580622 words of memory out of 5000000
+ 38245 multiletter control sequences out of 15000+600000
+ 631622 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,7n,79p,388b,619s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Final_Report.pdf (3 pages, 361686 bytes).
+ 75i,7n,79p,436b,748s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on Final_Report.pdf (4 pages, 409626 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
- 18 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 170 PDF objects out of 1000 (max. 8388607)
+ 129 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 500000)
+ 82 words of extra memory for PDF output out of 10000 (max. 10000000)
 

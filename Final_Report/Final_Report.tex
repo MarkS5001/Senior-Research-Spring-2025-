@@ -8,7 +8,7 @@
 \bibliographystyle{plainnat}
 \usepackage[nottoc]{tocbibind} % Includes "References" in the table of contents
 
-\title{RCW Report}
+\title{Final Report}
 \author{Mark Smith \vspace{1.5mm} \\ smi20046@byui.edu \vspace{1.5mm} \\ BYU-Idaho Physics}
 \date{Spring 2025}
 
@@ -19,6 +19,7 @@
 % \newpage
 
 \section*{\centering{Abstract}}
+    
     In this work, grazing incidence X-ray diffraction (GIXRD) is utilized to investigate the depth profile of dopants in silicon. 
     By systematically varying the X-ray incidence angle, one can precisely control the depth penetrated into doped silicon samples. 
     This approach enables a non-destructive analysis of how dopant concentration evolves with depth. 
@@ -58,7 +59,7 @@
 
     Amorphous solids under the x-ray beam behave in a similar manner. 
     The difference being because every atom is arranged randomly, there are an infinite number of planes with their own spacing. 
-    As shown in figure \ref{fig:pure amorphous XRD scan}, this correlates to a moderately low angle hump (called an amorphous hump) with all spacings that would correlate to higher angled peaks being nonexistent because of deconstructive interference.
+    As shown in figure \ref{fig:pure amorphous XRD scan}, this correlates to a moderately low angle hump (called an amorphous hump) with all spacings that would correlate to higher angled peaks being nonexistent because of deconstructive interference\citep{PARKS2007277,achilles_amorphous_2018,ma18092093}.
 
 % Show picture of amorphous XRD pattern
 \begin{figure}[H]
@@ -91,7 +92,7 @@
     The different incident angles probe different depths due to the different 
     path lengths they provide the x-rays as they interact with the samples. This 
     is due to the exponential attenuation of intensity as the beam travels given 
-    by this equation: $I(y)=I_0e^{-\alpha y}$ with $\alpha=2\omega n_I/c$. With 
+    by this equation: $I(y)=I_0e^{-\alpha y}$ with $\alpha=2\omega n_I/c$\citep{https://doi.org/10.1002/jps.22202,hecht}. With 
     the complex index of refraction ($n_I$) strongly dependent on wavelength. 
     The x-ray source is copper, producing $K_\alpha$, and $K_\beta$ in most 
     abundance. Since one wavelength provides the most uniformity on the diffractogram, 
@@ -112,12 +113,12 @@
      for it to be effective). The intensity of the x-ray is also assumed to have 
      attenuated by 90\%, and all relevant data comes from that. The last assumption 
      is that the sample is put in its perferred orientation for the silicon structure 
-     to be alined with the x-ray beam.
+     to be alined with the x-ray beam. The index of refration is the same as bulk samples\citep{COLOMBI2007554}.
     
     \subsubsection*{Method 1: Ratio}
 
         With this method the program takes the max intensity of the amorphous hump, and the max intensity of the most intense crystalline peak, and takes the ratio of them. 
-        This ratio is then the relative percentages of the dopant and substrate.
+        This ratio is then the relative percentages of the dopant and substrate\citep{pandey_structural_2021}.
 
     \subsubsection*{Method 2: Curve Fitting}
 
@@ -173,16 +174,20 @@
     Creating an analysis to correct for the real diffusion process by not assuming uniform layers.
     This would produce the greatest impact on the real world application of these results.
 
-% \bibliography{final_report}
+\section{Notable Things Learned}
+
+    \begin{itemize}
+        \item How to use GIXRD
+        \item XRD sample preparation
+        \item Leveraging dictionaries and dataframes for effective data analysis
+        \item Write data to an Excel file for less error prone data storage
+        \item Real world error handling in python
+    \end{itemize}
+
+
+\bibliography{final_report}
 
 \end{multicols}
-\vspace{75mm}
-\raggedright
-Bibliography is available upon request
-
-% \section{Notable Things Learned}
 
 % \include{code}
-
 \end{document}
-\citep{pandey_structural_2021}
