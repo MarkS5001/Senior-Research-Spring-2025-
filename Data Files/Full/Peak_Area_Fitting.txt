@@ -1,0 +1,802 @@
+PS E:\Full> & C:/Users/markb/anaconda3/python.exe e:/Full/Peak_Area_Fitting.py
+This assumes that for composite peaks, the crystalline peak is somewhere in the middle of the amorphous peak.
+This assumes that for composite peaks, the crystalline peak is somewhere in the middle of the amorphous peak.
+Processing file: MSS p (full, 15w).csv
+Enter the amorphous range (e.g., 20-30): 14-36
+Enter the crystalline range (e.g., 30-40): 28.5-30.5
+Processing file: MSS p (full, 14w).csv
+Enter the amorphous range (e.g., 20-30): 13-38
+Enter the crystalline range (e.g., 30-40): 26.5-28.5
+Processing file: MSS p (full, 13w).csv
+Enter the amorphous range (e.g., 20-30): 13-36
+Enter the crystalline range (e.g., 30-40): 24.5-26.5
+Processing file: MSS p (full, 12w).csv
+Enter the amorphous range (e.g., 20-30): 12-32
+Enter the crystalline range (e.g., 30-40): 22.5-24.5
+Processing file: MSS p (full, 11w).csv
+Enter the amorphous range (e.g., 20-30): 11-37
+Enter the crystalline range (e.g., 30-40): 20-23
+Processing file: MSS p (full, 10w).csv
+Enter the amorphous range (e.g., 20-30): 14-35
+Enter the crystalline range (e.g., 30-40): 18-21
+Processing file: MSS p (full, 9w).csv
+Enter the amorphous range (e.g., 20-30): 13-34
+Enter the crystalline range (e.g., 30-40): 16-18.5
+Processing file: MSS p (full, 8w).csv
+Enter the amorphous range (e.g., 20-30): 13-32
+Enter the crystalline range (e.g., 30-40): 14.5-16
+Processing file: MSS p (full, 7w).csv
+Enter the amorphous range (e.g., 20-30): 13-30
+Enter the crystalline range (e.g., 30-40): 63-65
+Processing file: MSS p (full, 6w).csv
+Enter the amorphous range (e.g., 20-30): 13-33
+Enter the crystalline range (e.g., 30-40): 60.5-63
+Processing file: MSS p (full, 5w).csv
+Enter the amorphous range (e.g., 20-30): 12-31
+Enter the crystalline range (e.g., 30-40): 59-61
+Processing file: MSS p (full, 3w).csv
+Enter the amorphous range (e.g., 20-30): 14-35
+Enter the crystalline range (e.g., 30-40): 36-38
+Processing file: MSS p (full, 1w).csv
+Enter the amorphous range (e.g., 20-30): 12-31
+Enter the crystalline range (e.g., 30-40): 32-34
+Processing file: MSS p (full, 0.25w).csv
+Enter the amorphous range (e.g., 20-30): 12-35
+Enter the crystalline range (e.g., 30-40): 31-32.5
+Processing file: MSS p (full, 0.025w).csv
+Enter the amorphous range (e.g., 20-30): 14-28
+Enter the crystalline range (e.g., 30-40): 31-32
+Processing file: MSS p (full, 0.5w).csv
+Enter the amorphous range (e.g., 20-30): 12-36
+Enter the crystalline range (e.g., 30-40): 31-33
+Processing file: MSS p (full, 0.05w).csv
+Enter the amorphous range (e.g., 20-30): 14-28
+Enter the crystalline range (e.g., 30-40): 30.5-32.5
+Processing file: MSS p (full, 0.005w).csv
+Enter the amorphous range (e.g., 20-30): 14-27
+Enter the crystalline range (e.g., 30-40): 30-34
+Processing file: MSS p (full, 0.1w).csv
+Enter the amorphous range (e.g., 20-30): 12-30
+Enter the crystalline range (e.g., 30-40): 30.5-32.5
+Processing file: MSS p (full, 0.01w).csv
+Enter the amorphous range (e.g., 20-30): 13-26
+Enter the crystalline range (e.g., 30-40): 30.5-32
+This assumes that for composite peaks, the crystalline peak is somewhere in the middle of the amorphous peak.
+Traceback (most recent call last):
+  File "C:\Users\markb\anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 3629, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 2131, in pandas._libs.hashtable.Int64HashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 2140, in pandas._libs.hashtable.Int64HashTable.get_item
+KeyError: 0
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "e:\Full\Peak_Area_Fitting.py", line 345, in <module>
+    data_fit_parameters = Peak_fit(data_ranges) # Fit the peaks to a Gaussian function
+  File "e:\Full\Peak_Area_Fitting.py", line 110, in Peak_fit
+    step_size = position[1] - position[0]  # Calculate the step size based on the position data
+  File "C:\Users\markb\anaconda3\lib\site-packages\pandas\core\series.py", line 958, in __getitem__
+    return self._get_value(key)
+  File "C:\Users\markb\anaconda3\lib\site-packages\pandas\core\series.py", line 1069, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\markb\anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 3631, in get_loc
+    raise KeyError(key) from err
+KeyError: 0
+PS E:\Full>
+
+PS E:\Full> & C:/Users/markb/anaconda3/python.exe e:/Full/Peak_Area_Fitting.py
+This assumes that for composite peaks, the crystalline peak is somewhere in the middle of the amorphous peak.
+This assumes that for composite peaks, the crystalline peak is somewhere in the middle of the amorphous peak.
+Processing file: MSS p (full, 15w).csv
+Enter the amorphous range (e.g., 20-30): 14-36
+Enter the crystalline range (e.g., 30-40): 28.5-30.5
+
+
+Processing file: MSS p (full, 14w).csv
+Enter the amorphous range (e.g., 20-30): 13-38
+Enter the crystalline range (e.g., 30-40): 26.5-28.5
+
+
+Processing file: MSS p (full, 13w).csv
+Enter the amorphous range (e.g., 20-30): 13-36
+Enter the crystalline range (e.g., 30-40): 24.5-26.5
+
+
+Processing file: MSS p (full, 12w).csv
+Enter the amorphous range (e.g., 20-30): 12-32
+Enter the crystalline range (e.g., 30-40): 22.5-24.5
+
+
+Processing file: MSS p (full, 11w).csv
+Enter the amorphous range (e.g., 20-30): 11-37
+Enter the crystalline range (e.g., 30-40): 20-23
+
+
+Processing file: MSS p (full, 10w).csv
+Enter the amorphous range (e.g., 20-30): 14-35
+Enter the crystalline range (e.g., 30-40): 18-21
+
+
+Processing file: MSS p (full, 9w).csv
+Enter the amorphous range (e.g., 20-30): 13-34
+Enter the crystalline range (e.g., 30-40): 16-18.5
+
+
+Processing file: MSS p (full, 8w).csv
+Enter the amorphous range (e.g., 20-30): 13-32
+Enter the crystalline range (e.g., 30-40): 14.5-16
+
+
+Processing file: MSS p (full, 7w).csv
+Enter the amorphous range (e.g., 20-30): 13-30
+Enter the crystalline range (e.g., 30-40): 63-65
+
+
+Processing file: MSS p (full, 6w).csv
+Enter the amorphous range (e.g., 20-30): 13-33
+Enter the crystalline range (e.g., 30-40): 60.5-63
+
+
+Processing file: MSS p (full, 5w).csv
+Enter the amorphous range (e.g., 20-30): 12-31
+Enter the crystalline range (e.g., 30-40): 59-61
+
+
+Processing file: MSS p (full, 3w).csv
+Enter the amorphous range (e.g., 20-30): 14-35
+Enter the crystalline range (e.g., 30-40): 36-38
+
+
+Processing file: MSS p (full, 1w).csv
+Enter the amorphous range (e.g., 20-30): 12-31
+Enter the crystalline range (e.g., 30-40): 32-34
+
+
+Processing file: MSS p (full, 0.25w).csv
+Enter the amorphous range (e.g., 20-30): 12-35
+Enter the crystalline range (e.g., 30-40): 31-32.5
+
+
+Processing file: MSS p (full, 0.025w).csv
+Enter the amorphous range (e.g., 20-30): 14-28
+Enter the crystalline range (e.g., 30-40): 31-32
+
+
+Processing file: MSS p (full, 0.5w).csv
+Enter the amorphous range (e.g., 20-30): 12-36
+Enter the crystalline range (e.g., 30-40): 31-33
+
+
+Processing file: MSS p (full, 0.05w).csv
+Enter the amorphous range (e.g., 20-30): 14-28
+Enter the crystalline range (e.g., 30-40): 30.5-32.5
+
+
+Processing file: MSS p (full, 0.005w).csv
+Enter the amorphous range (e.g., 20-30): 14-27
+Enter the crystalline range (e.g., 30-40): 30-34
+
+
+Processing file: MSS p (full, 0.1w).csv
+Enter the amorphous range (e.g., 20-30): 12-30
+Enter the crystalline range (e.g., 30-40): 30.5-32.5
+
+
+Processing file: MSS p (full, 0.01w).csv
+Enter the amorphous range (e.g., 20-30): 13-26
+Enter the crystalline range (e.g., 30-40): 30.5-32
+
+
+This assumes that for composite peaks, the crystalline peak is somewhere in the middle of the amorphous peak.
+Traceback (most recent call last):
+  File "e:\Full\Peak_Area_Fitting.py", line 348, in <module>
+    data_fit_parameters = Peak_fit(data_ranges) # Fit the peaks to a Gaussian function
+  File "e:\Full\Peak_Area_Fitting.py", line 151, in Peak_fit
+    fit_amorphous, error_amorphous = curve_fit(Gaussian_function,x_values_amorphous,y_values_amorphous,p0=guess_amorphous)
+  File "C:\Users\markb\anaconda3\lib\site-packages\scipy\optimize\_minpack_py.py", line 834, in curve_fit
+    res = leastsq(func, p0, Dfun=jac, full_output=1, **kwargs)
+  File "C:\Users\markb\anaconda3\lib\site-packages\scipy\optimize\_minpack_py.py", line 410, in leastsq
+    shape, dtype = _check_func('leastsq', 'func', func, x0, args, n)
+  File "C:\Users\markb\anaconda3\lib\site-packages\scipy\optimize\_minpack_py.py", line 24, in _check_func
+    res = atleast_1d(thefunc(*((x0[:numinputs],) + args)))
+  File "C:\Users\markb\anaconda3\lib\site-packages\scipy\optimize\_minpack_py.py", line 485, in func_wrapped
+    return func(xdata, *params) - ydata
+ValueError: operands could not be broadcast together with shapes (252,) (251,)
+PS E:\Full> 
+
+PS E:\Full> & C:/Users/markb/anaconda3/python.exe e:/Full/Peak_Area_Fitting.py
+This assumes that for composite peaks, the crystalline peak is somewhere in the middle of the amorphous peak.
+This assumes that for composite peaks, the crystalline peak is somewhere in the middle of the amorphous peak.
+Processing file: MSS p (full, 15w).csv
+Enter the amorphous range (e.g., 20-30): 14-36
+Enter the crystalline range (e.g., 30-40): 28.5-30.5
+
+
+Processing file: MSS p (full, 14w).csv
+Enter the amorphous range (e.g., 20-30): 13-38
+Enter the crystalline range (e.g., 30-40): 26.5-28.5
+
+
+Processing file: MSS p (full, 13w).csv
+Enter the amorphous range (e.g., 20-30): 13-36
+Enter the crystalline range (e.g., 30-40): 24.5-26.5
+
+
+Processing file: MSS p (full, 12w).csv
+Enter the amorphous range (e.g., 20-30): 12-32
+Enter the crystalline range (e.g., 30-40): 22.5-24.5
+
+
+Processing file: MSS p (full, 11w).csv
+Enter the amorphous range (e.g., 20-30): 11-37
+Enter the crystalline range (e.g., 30-40): 20-23
+
+
+Processing file: MSS p (full, 10w).csv
+Enter the amorphous range (e.g., 20-30): 14-35
+Enter the crystalline range (e.g., 30-40): 18-21
+
+
+Processing file: MSS p (full, 9w).csv
+Enter the amorphous range (e.g., 20-30): 13-34
+Enter the crystalline range (e.g., 30-40): 16-18.5
+
+
+Processing file: MSS p (full, 8w).csv
+Enter the amorphous range (e.g., 20-30): 13-32
+Enter the crystalline range (e.g., 30-40): 14.5-16
+
+
+Processing file: MSS p (full, 7w).csv
+Enter the amorphous range (e.g., 20-30): 13-30
+Enter the crystalline range (e.g., 30-40): 63-65
+
+
+Processing file: MSS p (full, 6w).csv
+Enter the amorphous range (e.g., 20-30): 13-33
+Enter the crystalline range (e.g., 30-40): 60.5-63
+
+
+Processing file: MSS p (full, 5w).csv
+Enter the amorphous range (e.g., 20-30): 12-31
+Enter the crystalline range (e.g., 30-40): 59-61
+
+
+Processing file: MSS p (full, 3w).csv
+Enter the amorphous range (e.g., 20-30): 14-35
+Enter the crystalline range (e.g., 30-40): 36-38
+
+
+Processing file: MSS p (full, 1w).csv
+Enter the amorphous range (e.g., 20-30): 12-31
+Enter the crystalline range (e.g., 30-40): 32-34
+
+
+Processing file: MSS p (full, 0.25w).csv
+Enter the amorphous range (e.g., 20-30): 12-35
+Enter the crystalline range (e.g., 30-40): 31-32.5
+
+
+Processing file: MSS p (full, 0.025w).csv
+Enter the amorphous range (e.g., 20-30): 14-28
+Enter the crystalline range (e.g., 30-40): 31-32
+
+
+Processing file: MSS p (full, 0.5w).csv
+Enter the amorphous range (e.g., 20-30): 12-36
+Enter the crystalline range (e.g., 30-40): 31-33
+
+
+Processing file: MSS p (full, 0.05w).csv
+Enter the amorphous range (e.g., 20-30): 14-28
+Enter the crystalline range (e.g., 30-40): 30.5-32.5
+
+
+Processing file: MSS p (full, 0.005w).csv
+Enter the amorphous range (e.g., 20-30): 14-27
+Enter the crystalline range (e.g., 30-40): 30-34
+
+
+Processing file: MSS p (full, 0.1w).csv
+Enter the amorphous range (e.g., 20-30): 12-30
+Enter the crystalline range (e.g., 30-40): 30.5-32.5
+
+
+Processing file: MSS p (full, 0.01w).csv
+Enter the amorphous range (e.g., 20-30): 13-26
+Enter the crystalline range (e.g., 30-40): 30.5-32
+
+
+This assumes that for composite peaks, the crystalline peak is somewhere in the middle of the amorphous peak.
+Traceback (most recent call last):
+  File "e:\Full\Peak_Area_Fitting.py", line 348, in <module>
+    data_fit_parameters = Peak_fit(data_ranges) # Fit the peaks to a Gaussian function
+  File "e:\Full\Peak_Area_Fitting.py", line 154, in Peak_fit
+    fit_crystalline, error_crystalline = curve_fit(Gaussian_function,x_values_crystalline[:-1],y_values_crystalline,p0=guess_crystalline)
+  File "C:\Users\markb\anaconda3\lib\site-packages\scipy\optimize\_minpack_py.py", line 834, in curve_fit
+    res = leastsq(func, p0, Dfun=jac, full_output=1, **kwargs)
+  File "C:\Users\markb\anaconda3\lib\site-packages\scipy\optimize\_minpack_py.py", line 410, in leastsq
+    shape, dtype = _check_func('leastsq', 'func', func, x0, args, n)
+  File "C:\Users\markb\anaconda3\lib\site-packages\scipy\optimize\_minpack_py.py", line 24, in _check_func
+    res = atleast_1d(thefunc(*((x0[:numinputs],) + args)))
+  File "C:\Users\markb\anaconda3\lib\site-packages\scipy\optimize\_minpack_py.py", line 485, in func_wrapped
+    return func(xdata, *params) - ydata
+ValueError: operands could not be broadcast together with shapes (23,) (25,)
+PS E:\Full> 
+
+PS E:\Full> & C:/Users/markb/anaconda3/python.exe e:/Full/Peak_Area_Fitting.py
+This assumes that for composite peaks, the crystalline peak is somewhere in the middle of the amorphous peak.
+This assumes that for composite peaks, the crystalline peak is somewhere in the middle of the amorphous peak.
+Processing file: MSS p (full, 15w).csv
+Enter the amorphous range (e.g., 20-30): 14-36
+Enter the crystalline range (e.g., 30-40): 28.5-30.5
+
+
+Processing file: MSS p (full, 14w).csv
+Enter the amorphous range (e.g., 20-30): 13-38
+Enter the crystalline range (e.g., 30-40): 26.5-28.5
+
+
+Processing file: MSS p (full, 13w).csv
+Enter the amorphous range (e.g., 20-30): 13-36
+Enter the crystalline range (e.g., 30-40): 24.5-26.5
+
+
+Processing file: MSS p (full, 12w).csv
+Enter the amorphous range (e.g., 20-30): 12-32
+Enter the crystalline range (e.g., 30-40): 22.5-24.5
+
+
+Processing file: MSS p (full, 11w).csv
+Enter the amorphous range (e.g., 20-30): 11-37
+Enter the crystalline range (e.g., 30-40): 20-23
+
+
+Processing file: MSS p (full, 10w).csv
+Enter the amorphous range (e.g., 20-30): 14-35
+Enter the crystalline range (e.g., 30-40): 18-21
+
+
+Processing file: MSS p (full, 9w).csv
+Enter the amorphous range (e.g., 20-30): 13-34
+Enter the crystalline range (e.g., 30-40): 16-18.5
+
+
+Processing file: MSS p (full, 8w).csv
+Enter the amorphous range (e.g., 20-30): 13-32
+Enter the crystalline range (e.g., 30-40): 14.5-16
+
+
+Processing file: MSS p (full, 7w).csv
+Enter the amorphous range (e.g., 20-30): 13-30
+Enter the crystalline range (e.g., 30-40): 63-65
+
+
+Processing file: MSS p (full, 6w).csv
+Enter the amorphous range (e.g., 20-30): 13-33
+Enter the crystalline range (e.g., 30-40): 60.5-63
+
+
+Processing file: MSS p (full, 5w).csv
+Enter the amorphous range (e.g., 20-30): 12-31
+Enter the crystalline range (e.g., 30-40): 59-61
+
+
+Processing file: MSS p (full, 3w).csv
+Enter the amorphous range (e.g., 20-30): 14-35
+Enter the crystalline range (e.g., 30-40): 36-38
+
+
+Processing file: MSS p (full, 1w).csv
+Enter the amorphous range (e.g., 20-30): 12-31
+Enter the crystalline range (e.g., 30-40): 32-34
+
+
+Processing file: MSS p (full, 0.25w).csv
+Enter the amorphous range (e.g., 20-30): 12-35
+Enter the crystalline range (e.g., 30-40): 31-32.5
+
+
+Processing file: MSS p (full, 0.025w).csv
+Enter the amorphous range (e.g., 20-30): 14-28
+Enter the crystalline range (e.g., 30-40): 31-32
+
+
+Processing file: MSS p (full, 0.5w).csv
+Enter the amorphous range (e.g., 20-30): 12-36
+Enter the crystalline range (e.g., 30-40): 31-33
+
+
+Processing file: MSS p (full, 0.05w).csv
+Enter the amorphous range (e.g., 20-30): 14-28
+Enter the crystalline range (e.g., 30-40): 30.5-32.5
+
+
+Processing file: MSS p (full, 0.005w).csv
+Enter the amorphous range (e.g., 20-30): 14-27
+Enter the crystalline range (e.g., 30-40): 30-34
+
+
+Processing file: MSS p (full, 0.1w).csv
+Enter the amorphous range (e.g., 20-30): 12-30
+Enter the crystalline range (e.g., 30-40): 30.5-32.5
+
+
+Processing file: MSS p (full, 0.01w).csv
+Enter the amorphous range (e.g., 20-30): 13-26
+Enter the crystalline range (e.g., 30-40): 30.5-32
+
+
+This assumes that for composite peaks, the crystalline peak is somewhere in the middle of the amorphous peak.
+Traceback (most recent call last):
+  File "e:\Full\Peak_Area_Fitting.py", line 348, in <module>
+    data_fit_parameters = Peak_fit(data_ranges) # Fit the peaks to a Gaussian function
+  File "e:\Full\Peak_Area_Fitting.py", line 151, in Peak_fit
+    fit_amorphous, error_amorphous = curve_fit(Gaussian_function,x_values_amorphous[:-1],y_values_amorphous,p0=guess_amorphous)
+  File "C:\Users\markb\anaconda3\lib\site-packages\scipy\optimize\_minpack_py.py", line 834, in curve_fit
+    res = leastsq(func, p0, Dfun=jac, full_output=1, **kwargs)
+  File "C:\Users\markb\anaconda3\lib\site-packages\scipy\optimize\_minpack_py.py", line 410, in leastsq
+    shape, dtype = _check_func('leastsq', 'func', func, x0, args, n)
+  File "C:\Users\markb\anaconda3\lib\site-packages\scipy\optimize\_minpack_py.py", line 24, in _check_func
+    res = atleast_1d(thefunc(*((x0[:numinputs],) + args)))
+  File "C:\Users\markb\anaconda3\lib\site-packages\scipy\optimize\_minpack_py.py", line 485, in func_wrapped
+    return func(xdata, *params) - ydata
+ValueError: operands could not be broadcast together with shapes (232,) (231,)
+PS E:\Full>
+
+PS E:\Full> & C:/Users/markb/anaconda3/python.exe e:/Full/Peak_Area_Fitting.py
+This assumes that for composite peaks, the crystalline peak is somewhere in the middle of the amorphous peak.
+This assumes that for composite peaks, the crystalline peak is somewhere in the middle of the amorphous peak.
+Processing file: MSS p (full, 15w).csv
+Enter the amorphous range (e.g., 20-30): 14-36
+Enter the crystalline range (e.g., 30-40): 28.5-30.5
+
+
+Processing file: MSS p (full, 14w).csv
+Enter the amorphous range (e.g., 20-30): 13-38
+Enter the crystalline range (e.g., 30-40): 26.5-28.5
+
+
+Processing file: MSS p (full, 13w).csv
+Enter the amorphous range (e.g., 20-30): 13-36
+Enter the crystalline range (e.g., 30-40): 24.5-26.5
+
+
+Processing file: MSS p (full, 12w).csv
+Enter the amorphous range (e.g., 20-30): 12-32
+Enter the crystalline range (e.g., 30-40): 22.5-24.5
+
+
+Processing file: MSS p (full, 11w).csv
+Enter the amorphous range (e.g., 20-30): 11-37
+Enter the crystalline range (e.g., 30-40): 20-23
+
+
+Processing file: MSS p (full, 10w).csv
+Enter the amorphous range (e.g., 20-30): 14-35
+Enter the crystalline range (e.g., 30-40): 18-21
+
+
+Processing file: MSS p (full, 9w).csv
+Enter the amorphous range (e.g., 20-30): 13-34
+Enter the crystalline range (e.g., 30-40): 16-18.5
+
+
+Processing file: MSS p (full, 8w).csv
+Enter the amorphous range (e.g., 20-30): 13-32
+Enter the crystalline range (e.g., 30-40): 14.5-16
+
+
+Processing file: MSS p (full, 7w).csv
+Enter the amorphous range (e.g., 20-30): 13-30
+Enter the crystalline range (e.g., 30-40): 63-65
+
+
+Processing file: MSS p (full, 6w).csv
+Enter the amorphous range (e.g., 20-30): 13-33
+Enter the crystalline range (e.g., 30-40): 60.5-63
+
+
+Processing file: MSS p (full, 5w).csv
+Enter the amorphous range (e.g., 20-30): 12-31
+Enter the crystalline range (e.g., 30-40): 59-61
+
+
+Processing file: MSS p (full, 3w).csv
+Enter the amorphous range (e.g., 20-30): 14-35
+Enter the crystalline range (e.g., 30-40): 36-38
+
+
+Processing file: MSS p (full, 1w).csv
+Enter the amorphous range (e.g., 20-30): 12-31
+Enter the crystalline range (e.g., 30-40): 32-34
+
+
+Processing file: MSS p (full, 0.25w).csv
+Enter the amorphous range (e.g., 20-30): 12-35
+Enter the crystalline range (e.g., 30-40): 31-32.5
+
+
+Processing file: MSS p (full, 0.025w).csv
+Enter the amorphous range (e.g., 20-30): 14-28
+Enter the crystalline range (e.g., 30-40): 31-32
+
+
+Processing file: MSS p (full, 0.5w).csv
+Enter the amorphous range (e.g., 20-30): 12-36
+Enter the crystalline range (e.g., 30-40): 31-33
+
+
+Processing file: MSS p (full, 0.05w).csv
+Enter the amorphous range (e.g., 20-30): 14-28
+Enter the crystalline range (e.g., 30-40): 30.5-32.5
+
+
+Processing file: MSS p (full, 0.005w).csv
+Enter the amorphous range (e.g., 20-30): 14-27
+Enter the crystalline range (e.g., 30-40): 30-34
+
+
+Processing file: MSS p (full, 0.1w).csv
+Enter the amorphous range (e.g., 20-30): 12-30
+Enter the crystalline range (e.g., 30-40): 30.5-32.5
+
+
+Processing file: MSS p (full, 0.01w).csv
+Enter the amorphous range (e.g., 20-30): 13-26
+Enter the crystalline range (e.g., 30-40): 30.5-32
+
+
+This assumes that for composite peaks, the crystalline peak is somewhere in the middle of the amorphous peak.
+Traceback (most recent call last):
+  File "e:\Full\Peak_Area_Fitting.py", line 364, in <module>
+    data_fit_parameters = Peak_fit(data_ranges) # Fit the peaks to a Gaussian function
+  File "e:\Full\Peak_Area_Fitting.py", line 167, in Peak_fit
+    fit_amorphous, error_amorphous = curve_fit(Gaussian_function,x_values_amorphous[:-1],y_values_amorphous,p0=guess_amorphous)
+  File "C:\Users\markb\anaconda3\lib\site-packages\scipy\optimize\_minpack_py.py", line 834, in curve_fit
+    res = leastsq(func, p0, Dfun=jac, full_output=1, **kwargs)
+  File "C:\Users\markb\anaconda3\lib\site-packages\scipy\optimize\_minpack_py.py", line 410, in leastsq
+    shape, dtype = _check_func('leastsq', 'func', func, x0, args, n)
+  File "C:\Users\markb\anaconda3\lib\site-packages\scipy\optimize\_minpack_py.py", line 24, in _check_func
+    res = atleast_1d(thefunc(*((x0[:numinputs],) + args)))
+  File "C:\Users\markb\anaconda3\lib\site-packages\scipy\optimize\_minpack_py.py", line 485, in func_wrapped
+    return func(xdata, *params) - ydata
+ValueError: operands could not be broadcast together with shapes (250,) (251,)
+PS E:\Full> 
+
+PS E:\Full> & C:/Users/markb/anaconda3/python.exe e:/Full/Peak_Area_Fitting.py
+This assumes that for composite peaks, the crystalline peak is somewhere in the middle of the amorphous peak.
+This assumes that for composite peaks, the crystalline peak is somewhere in the middle of the amorphous peak.
+Processing file: MSS p (full, 15w).csv
+Enter the amorphous range (e.g., 20-30): 20-30
+Enter the crystalline range (e.g., 30-40): 28.5-30.5
+
+
+Processing file: MSS p (full, 14w).csv
+Enter the amorphous range (e.g., 20-30): 13-38
+Enter the crystalline range (e.g., 30-40): 26.5-28.5
+
+
+Processing file: MSS p (full, 13w).csv
+Enter the amorphous range (e.g., 20-30): 13-36
+Enter the crystalline range (e.g., 30-40): 24.5-26.5
+
+
+Processing file: MSS p (full, 12w).csv
+Enter the amorphous range (e.g., 20-30): 12-32
+Enter the crystalline range (e.g., 30-40): 22.5-24.5
+
+
+Processing file: MSS p (full, 11w).csv
+Enter the amorphous range (e.g., 20-30): 11-37
+Enter the crystalline range (e.g., 30-40): 20-23
+
+
+Processing file: MSS p (full, 10w).csv
+Enter the amorphous range (e.g., 20-30): 14-35
+Enter the crystalline range (e.g., 30-40): 18-21
+
+
+Processing file: MSS p (full, 9w).csv
+Enter the amorphous range (e.g., 20-30): 13-34
+Enter the crystalline range (e.g., 30-40): 16-18.5
+
+
+Processing file: MSS p (full, 8w).csv
+Enter the amorphous range (e.g., 20-30): 13-32
+Enter the crystalline range (e.g., 30-40): 14.5-16
+
+
+Processing file: MSS p (full, 7w).csv
+Enter the amorphous range (e.g., 20-30): 13-30
+Enter the crystalline range (e.g., 30-40): 63-65
+
+
+Processing file: MSS p (full, 6w).csv
+Enter the amorphous range (e.g., 20-30): 13-33
+Enter the crystalline range (e.g., 30-40): 60.5-63
+
+
+Processing file: MSS p (full, 5w).csv
+Enter the amorphous range (e.g., 20-30): 12-31
+Enter the crystalline range (e.g., 30-40): 59-61
+
+
+Processing file: MSS p (full, 3w).csv
+Enter the amorphous range (e.g., 20-30): 14-35
+Enter the crystalline range (e.g., 30-40): 36-38
+
+
+Processing file: MSS p (full, 1w).csv
+Enter the amorphous range (e.g., 20-30): 12-31
+Enter the crystalline range (e.g., 30-40): 32-34
+
+
+Processing file: MSS p (full, 0.25w).csv
+Enter the amorphous range (e.g., 20-30): 12-35
+Enter the crystalline range (e.g., 30-40): 31-32.5
+
+
+Processing file: MSS p (full, 0.025w).csv
+Enter the amorphous range (e.g., 20-30): 14-28
+Enter the crystalline range (e.g., 30-40): 31-32
+
+
+Processing file: MSS p (full, 0.5w).csv
+Enter the amorphous range (e.g., 20-30): 12-36
+Enter the crystalline range (e.g., 30-40): 31-33
+
+
+Processing file: MSS p (full, 0.05w).csv
+Enter the amorphous range (e.g., 20-30): 14-28
+Enter the crystalline range (e.g., 30-40): 30.5-32.5
+
+
+Processing file: MSS p (full, 0.005w).csv
+Enter the amorphous range (e.g., 20-30): 14-27
+Enter the crystalline range (e.g., 30-40): 30-34
+
+
+Processing file: MSS p (full, 0.1w).csv
+Enter the amorphous range (e.g., 20-30): 12-30
+Enter the crystalline range (e.g., 30-40): 30.5-32.5
+
+
+Processing file: MSS p (full, 0.01w).csv
+Enter the amorphous range (e.g., 20-30): 13-26
+Enter the crystalline range (e.g., 30-40): 30.5-32
+
+
+This assumes that for composite peaks, the crystalline peak is somewhere in the middle of the amorphous peak.
+Traceback (most recent call last):
+  File "e:\Full\Peak_Area_Fitting.py", line 364, in <module>
+    data_fit_parameters = Peak_fit(data_ranges) # Fit the peaks to a Gaussian function
+  File "e:\Full\Peak_Area_Fitting.py", line 167, in Peak_fit
+    fit_amorphous, error_amorphous = curve_fit(Gaussian_function,x_values_amorphous[:-1],y_values_amorphous,p0=guess_amorphous)
+  File "C:\Users\markb\anaconda3\lib\site-packages\scipy\optimize\_minpack_py.py", line 832, in curve_fit
+    raise TypeError(f"The number of func parameters={n} must not"
+TypeError: The number of func parameters=4 must not exceed the number of data points=2
+PS E:\Full> 
+
+PS E:\Full> & C:/Users/markb/anaconda3/python.exe e:/Full/Peak_Area_Fitting.py
+This assumes that for composite peaks, the crystalline peak is somewhere in the middle of the amorphous peak.
+This assumes that for composite peaks, the crystalline peak is somewhere in the middle of the amorphous peak.
+Processing file: MSS p (full, 15w).csv
+Enter the amorphous range (e.g., 20-30): 20-30
+Enter the crystalline range (e.g., 30-40): 28.5-30.5
+
+
+Processing file: MSS p (full, 14w).csv
+Enter the amorphous range (e.g., 20-30): 13-38
+Enter the crystalline range (e.g., 30-40): 26.5-28.5
+
+
+Processing file: MSS p (full, 13w).csv
+Enter the amorphous range (e.g., 20-30): 13-36
+Enter the crystalline range (e.g., 30-40): 24.5-26.5
+
+
+Processing file: MSS p (full, 12w).csv
+Enter the amorphous range (e.g., 20-30): 12-32
+Enter the crystalline range (e.g., 30-40): 22.5-24.5
+
+
+Processing file: MSS p (full, 11w).csv
+Enter the amorphous range (e.g., 20-30): 11-37
+Enter the crystalline range (e.g., 30-40): 20-23
+
+
+Processing file: MSS p (full, 10w).csv
+Enter the amorphous range (e.g., 20-30): 14-35
+Enter the crystalline range (e.g., 30-40): 18-21
+
+
+Processing file: MSS p (full, 9w).csv
+Enter the amorphous range (e.g., 20-30): 13-34
+Enter the crystalline range (e.g., 30-40): 16-18.5
+
+
+Processing file: MSS p (full, 8w).csv
+Enter the amorphous range (e.g., 20-30): 13-32
+Enter the crystalline range (e.g., 30-40): 14.5-16
+
+
+Processing file: MSS p (full, 7w).csv
+Enter the amorphous range (e.g., 20-30): 13-30
+Enter the crystalline range (e.g., 30-40): 63-65
+
+
+Processing file: MSS p (full, 6w).csv
+Enter the amorphous range (e.g., 20-30): 13-33
+Enter the crystalline range (e.g., 30-40): 60.5-63
+
+
+Processing file: MSS p (full, 5w).csv
+Enter the amorphous range (e.g., 20-30): 12-31
+Enter the crystalline range (e.g., 30-40): 59-61
+
+
+Processing file: MSS p (full, 3w).csv
+Enter the amorphous range (e.g., 20-30): 14-35
+Enter the crystalline range (e.g., 30-40): 36-38
+
+
+Processing file: MSS p (full, 1w).csv
+Enter the amorphous range (e.g., 20-30): 12-31
+Enter the crystalline range (e.g., 30-40): 32-34
+
+
+Processing file: MSS p (full, 0.25w).csv
+Enter the amorphous range (e.g., 20-30): 12-35
+Enter the crystalline range (e.g., 30-40): 31-32.5
+
+
+Processing file: MSS p (full, 0.025w).csv
+Enter the amorphous range (e.g., 20-30): 14-28
+Enter the crystalline range (e.g., 30-40): 31-32
+
+
+Processing file: MSS p (full, 0.5w).csv
+Enter the amorphous range (e.g., 20-30): 12-36
+Enter the crystalline range (e.g., 30-40): 31-33
+
+
+Processing file: MSS p (full, 0.05w).csv
+Enter the amorphous range (e.g., 20-30): 14-28
+Enter the crystalline range (e.g., 30-40): 30.5-32.5
+
+
+Processing file: MSS p (full, 0.005w).csv
+Enter the amorphous range (e.g., 20-30): 14-27
+Enter the crystalline range (e.g., 30-40): 30-34
+
+
+Processing file: MSS p (full, 0.1w).csv
+Enter the amorphous range (e.g., 20-30): 12-30
+Enter the crystalline range (e.g., 30-40): 30.5-32.5
+
+
+Processing file: MSS p (full, 0.01w).csv
+Enter the amorphous range (e.g., 20-30): 13-26
+Enter the crystalline range (e.g., 30-40): 30.5-32
+
+
+This assumes that for composite peaks, the crystalline peak is somewhere in the middle of the amorphous peak.
+Traceback (most recent call last):
+  File "e:\Full\Peak_Area_Fitting.py", line 364, in <module>
+    data_fit_parameters = Peak_fit(data_ranges) # Fit the peaks to a Gaussian function
+  File "e:\Full\Peak_Area_Fitting.py", line 167, in Peak_fit
+    fit_amorphous, error_amorphous = curve_fit(Gaussian_function,x_values_amorphous,y_values_amorphous,p0=guess_amorphous)
+  File "C:\Users\markb\anaconda3\lib\site-packages\scipy\optimize\_minpack_py.py", line 834, in curve_fit
+    res = leastsq(func, p0, Dfun=jac, full_output=1, **kwargs)
+  File "C:\Users\markb\anaconda3\lib\site-packages\scipy\optimize\_minpack_py.py", line 410, in leastsq
+    shape, dtype = _check_func('leastsq', 'func', func, x0, args, n)
+  File "C:\Users\markb\anaconda3\lib\site-packages\scipy\optimize\_minpack_py.py", line 24, in _check_func
+    res = atleast_1d(thefunc(*((x0[:numinputs],) + args)))
+  File "C:\Users\markb\anaconda3\lib\site-packages\scipy\optimize\_minpack_py.py", line 485, in func_wrapped
+    return func(xdata, *params) - ydata
+ValueError: operands could not be broadcast together with shapes (108,) (107,)
+PS E:\Full> 

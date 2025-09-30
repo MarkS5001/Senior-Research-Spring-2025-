@@ -1,0 +1,89 @@
+﻿<?xml version="1.0"?>
+<xrdMeasurements xmlns="http://www.xrdml.com/XRDMeasurement/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xrdml.com/XRDMeasurement/2.2 http://www.xrdml.com/XRDMeasurement/2.2/XRDMeasurement.xsd" status="Completed" recordIdentifier="{3510C706-2AB3-4965-8015-14E62BD504CB}">
+	<comment>
+		<entry/>
+	</comment>
+	<sample type="To be analyzed">
+		<id>dt</id>
+		<name></name>
+		<preparedBy></preparedBy>
+	</sample>
+	<xrdMeasurement measurementType="Scan" status="Completed" sampleMode="Reflection">
+		<usedWavelength intended="K-Alpha 1">
+			<kAlpha1 unit="Angstrom">1.5405980</kAlpha1>
+			<kAlpha2 unit="Angstrom">1.5444260</kAlpha2>
+			<kBeta unit="Angstrom">1.3922500</kBeta>
+			<ratioKAlpha2KAlpha1>0.5000</ratioKAlpha2KAlpha1>
+		</usedWavelength>
+		<incidentBeamPath>
+			<radius unit="mm">145.00</radius>
+			<xRayTube id="1010048" name="Empyrean Cu LFF HR (9430 033 7310x) DK437964">
+				<tension unit="kV">40.0</tension>
+				<current unit="mA">15.0</current>
+				<anodeMaterial>Cu</anodeMaterial>
+				<focus type="Line">
+					<length unit="mm">12.0</length>
+					<width unit="mm">0.4</width>
+					<takeOffAngle unit="deg">6.0</takeOffAngle>
+				</focus>
+			</xRayTube>
+			<filter id="20010004" name="Beta-filter Nickel">
+				<material>Ni</material>
+				<thickness unit="mm">0.020</thickness>
+			</filter>
+			<sollerSlit id="21010002" name="Soller slits 0.04 rad.">
+				<opening unit="rad">0.0400</opening>
+			</sollerSlit>
+			<mask id="22031000" name="Fixed mask 13 mm">
+				<width unit="mm">9.00</width>
+			</mask>
+			<divergenceSlit id="22120002" name="Divergence slit 1/2°" xsi:type="fixedDivergenceSlitType">
+				<distanceToSample unit="mm">50.00</distanceToSample>
+				<height unit="mm">0.76</height>
+			</divergenceSlit>
+		</incidentBeamPath>
+		<diffractedBeamPath>
+			<radius unit="mm">145.00</radius>
+			<parallelPlateCollimator id="25020001" name="Parallel plate collimator 0.28°">
+				<opening unit="deg">0.28</opening>
+			</parallelPlateCollimator>
+			<detector id="7010020" name="PIXcel3D-Medipix3 1x1 detector" xsi:type="areaDetectorType">
+				<phd unit="keV">
+					<lowerLevel>4.0</lowerLevel>
+					<upperLevel>11.3</upperLevel>
+				</phd>
+				<mode>Receiving slit</mode>
+				<activeChannelsEquatorial>255</activeChannelsEquatorial>
+				<activeChannelsAxial>255</activeChannelsAxial>
+				<pitchEquatorial unit="mm">0.05500</pitchEquatorial>
+				<pitchAxial unit="mm">0.05500</pitchAxial>
+				<readOutPeriod unit="seconds">0.050</readOutPeriod>
+			</detector>
+		</diffractedBeamPath>
+		<scan appendNumber="0" mode="Continuous" scanAxis="2Theta" status="Completed">
+			<header>
+				<startTimeStamp>2025-05-14T07:30:58-08:00</startTimeStamp>
+				<endTimeStamp>2025-05-14T07:36:01-08:00</endTimeStamp>
+				<author>
+					<name>Instrument</name>
+				</author>
+				<source>
+					<applicationSoftware version="1.6 (94)">PANalytical Aeris Instrument Suite</applicationSoftware>
+					<instrumentControlSoftware version="3.0.0 20211014">AERIS</instrumentControlSoftware>
+					<instrumentID>2855484</instrumentID>
+				</source>
+			</header>
+			<dataPoints>
+				<positions axis="2Theta" unit="deg">
+					<startPosition>18.040</startPosition>
+					<endPosition>23.960</endPosition>
+				</positions>
+				<positions axis="Omega" unit="deg">
+					<commonPosition>5.000</commonPosition>
+				</positions>
+				<commonCountingTime unit="seconds">3.520</commonCountingTime>
+				<counts unit="counts">3140 3123 3182 3172 3291 3141 3093 3203 3266 3167 3230 3129 3265 3333 3304 3221 3250 3198 3424 3333 3271 3242 3285 3296 3439 3288 3296 3395 3491 3307 3409 3462 3346 3434 3401 3444 3505 3368 3399 3451 3342 3415 3457 3438 3517 3438 3344 3426 3438 3295 3485 3243 3285 3347 3287 3344 3340 3355 3340 3289 3359 3248 3277 3186 3216 3123 3269 3075 3045 3237 3068 3076 3125 3138 3052</counts>
+			</dataPoints>
+		</scan>
+	</xrdMeasurement>
+</xrdMeasurements>

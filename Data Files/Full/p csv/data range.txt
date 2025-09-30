@@ -1,0 +1,147 @@
+PS E:\Full> & C:/Users/markb/anaconda3/python.exe "e:/Full/XRD Analysis.py"
+15.0
+Use this format for the 2θ values: 20-30
+Enter the 2θ value for the amorphous peak range: 15-27
+Enter the 2θ value for the crystalline peak range: 28-32
+Crystalline content: 0.8926
+Amorphous content: 0.1074
+Calculated depth for the mixture: 90.3835 μm
+14.0
+Use this format for the 2θ values: 20-30
+Enter the 2θ value for the amorphous peak range: 18-25
+Enter the 2θ value for the crystalline peak range: 26-30
+Crystalline content: 0.9007
+Amorphous content: 0.0993
+Calculated depth for the mixture: 84.5839 μm
+13.0
+Use this format for the 2θ values: 20-30
+Enter the 2θ value for the amorphous peak range: 20-24
+Enter the 2θ value for the crystalline peak range: 24-27
+Crystalline content: 0.9064
+Amorphous content: 0.0936
+Calculated depth for the mixture: 78.7160 μm
+12.0
+Use this format for the 2θ values: 20-30
+Enter the 2θ value for the amorphous peak range: 88-92
+Enter the 2θ value for the crystalline peak range: 22-26
+Crystalline content: 0.9309
+Amorphous content: 0.0691
+Calculated depth for the mixture: 73.0169 μm
+11.0
+Use this format for the 2θ values: 20-30
+Enter the 2θ value for the amorphous peak range: 88-91
+Enter the 2θ value for the crystalline peak range: 19-23
+Crystalline content: 0.9047
+Amorphous content: 0.0953
+Calculated depth for the mixture: 66.7520 μm
+10.0
+Use this format for the 2θ values: 20-30
+Enter the 2θ value for the amorphous peak range: 87-89
+Enter the 2θ value for the crystalline peak range: 18-22
+Crystalline content: 0.8119
+Amorphous content: 0.1881
+Calculated depth for the mixture: 59.9292 μm
+9.0
+Use this format for the 2θ values: 20-30
+Enter the 2θ value for the amorphous peak range: 19-25
+Enter the 2θ value for the crystalline peak range: 86-90
+Crystalline content: 0.9991
+Amorphous content: 0.0009
+Calculated depth for the mixture: 55.4979 μm
+8.0
+Use this format for the 2θ values: 20-30
+Enter the 2θ value for the amorphous peak range: 18-26
+Enter the 2θ value for the crystalline peak range: 83-90
+Crystalline content: 0.9029
+Amorphous content: 0.0971
+Calculated depth for the mixture: 48.6747 μm
+7.0
+Use this format for the 2θ values: 20-30
+Enter the 2θ value for the amorphous peak range: 85-88
+Enter the 2θ value for the crystalline peak range: 82-86
+Crystalline content: 0.8574
+Amorphous content: 0.1426
+Calculated depth for the mixture: 42.3393 μm
+6.0
+Use this format for the 2θ values: 20-30
+Enter the 2θ value for the amorphous peak range: 15-30
+Enter the 2θ value for the crystalline peak range: 60-64
+Crystalline content: 0.8489
+Amorphous content: 0.1511
+Calculated depth for the mixture: 36.2697 μm
+5.0
+Use this format for the 2θ values: 20-30
+Enter the 2θ value for the amorphous peak range: 15-27
+Enter the 2θ value for the crystalline peak range: 58-61
+Crystalline content: 0.8783
+Amorphous content: 0.1217
+Calculated depth for the mixture: 30.3723 μm
+3.0
+Use this format for the 2θ values: 20-30
+Enter the 2θ value for the amorphous peak range: 18-27
+Enter the 2θ value for the crystalline peak range: 53-58
+Crystalline content: 0.9989
+Amorphous content: 0.0011
+Calculated depth for the mixture: 18.5667 μm
+1.0
+Use this format for the 2θ values: 20-30
+Enter the 2θ value for the amorphous peak range: 16-23
+Enter the 2θ value for the crystalline peak range: 32-34
+Crystalline content: 0.7391
+Amorphous content: 0.2609
+Calculated depth for the mixture: 5.9602 μm
+0.25
+Use this format for the 2θ values: 20-30
+Enter the 2θ value for the amorphous peak range: 15-25
+Enter the 2θ value for the crystalline peak range: 30-32
+Crystalline content: 0.5229
+Amorphous content: 0.4771
+Calculated depth for the mixture: 1.4452 μm
+0.025
+Use this format for the 2θ values: 20-30
+Enter the 2θ value for the amorphous peak range: 16-24
+Enter the 2θ value for the crystalline peak range: 30-32
+Crystalline content: 0.3989
+Amorphous content: 0.6011
+Calculated depth for the mixture: 0.1421 μm
+0.5
+Use this format for the 2θ values: 20-30
+Enter the 2θ value for the amorphous peak range: 15-25
+Enter the 2θ value for the crystalline peak range: 30-34
+Crystalline content: 0.7034
+Amorphous content: 0.2966
+Calculated depth for the mixture: 2.9649 μm
+0.05
+Use this format for the 2θ values: 20-30
+Enter the 2θ value for the amorphous peak range: 15-25
+Enter the 2θ value for the crystalline peak range: 30-32
+Crystalline content: 0.6820
+Amorphous content: 0.3180
+Calculated depth for the mixture: 0.2956 μm
+0.005
+Use this format for the 2θ values: 20-30
+Enter the 2θ value for the amorphous peak range: 15-25
+Enter the 2θ value for the crystalline peak range: 30-32
+Crystalline content: 0.2687
+Amorphous content: 0.7313
+Calculated depth for the mixture: 0.0279 μm
+0.1
+Use this format for the 2θ values: 20-30
+Enter the 2θ value for the amorphous peak range: 15-25
+Enter the 2θ value for the crystalline peak range: 30-32
+Crystalline content: 0.8301
+Amorphous content: 0.1699
+Calculated depth for the mixture: 0.6039 μm
+0.01
+Use this format for the 2θ values: 20-30
+Enter the 2θ value for the amorphous peak range: 15-25
+Enter the 2θ value for the crystalline peak range: 31-32
+Crystalline content: 0.2790
+Amorphous content: 0.7210
+Calculated depth for the mixture: 0.0559 μm
+Traceback (most recent call last):
+  File "e:\Full\XRD Analysis.py", line 265, in <module>
+    all_depths("E://Full//p csv") # Change to the directory where the CSV files are located
+  File "e:\Full\XRD Analysis.py", line 222, in all_depths
+    index_location_start = i.index(',')
+ValueError: substring not found

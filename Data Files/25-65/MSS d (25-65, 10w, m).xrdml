@@ -1,0 +1,93 @@
+﻿<?xml version="1.0"?>
+<xrdMeasurements xmlns="http://www.xrdml.com/XRDMeasurement/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xrdml.com/XRDMeasurement/2.2 http://www.xrdml.com/XRDMeasurement/2.2/XRDMeasurement.xsd" status="Completed" recordIdentifier="{F29E2327-5F76-4A6D-8F5E-A0E66CF0FD3D}">
+	<comment>
+		<entry/>
+	</comment>
+	<sample type="To be analyzed">
+		<id>doped wafer</id>
+		<name></name>
+		<preparedBy></preparedBy>
+	</sample>
+	<xrdMeasurement measurementType="Scan" status="Completed" sampleMode="Reflection">
+		<usedWavelength intended="K-Alpha 1">
+			<kAlpha1 unit="Angstrom">1.5405980</kAlpha1>
+			<kAlpha2 unit="Angstrom">1.5444260</kAlpha2>
+			<kBeta unit="Angstrom">1.3922500</kBeta>
+			<ratioKAlpha2KAlpha1>0.5000</ratioKAlpha2KAlpha1>
+		</usedWavelength>
+		<incidentBeamPath>
+			<radius unit="mm">145.00</radius>
+			<xRayTube id="1010048" name="Empyrean Cu LFF HR (9430 033 7310x) DK437964">
+				<tension unit="kV">40.0</tension>
+				<current unit="mA">15.0</current>
+				<anodeMaterial>Cu</anodeMaterial>
+				<focus type="Line">
+					<length unit="mm">12.0</length>
+					<width unit="mm">0.4</width>
+					<takeOffAngle unit="deg">6.0</takeOffAngle>
+				</focus>
+			</xRayTube>
+			<filter id="20010004" name="Beta-filter Nickel">
+				<material>Ni</material>
+				<thickness unit="mm">0.020</thickness>
+			</filter>
+			<sollerSlit id="21010001" name="Soller slits 0.02 rad.">
+				<opening unit="rad">0.0200</opening>
+			</sollerSlit>
+			<mask id="22210002" name="2D Mask">
+				<width unit="mm">1.60</width>
+			</mask>
+			<divergenceSlit id="22120006" name="Divergence slit 1/32°" xsi:type="fixedDivergenceSlitType">
+				<distanceToSample unit="mm">50.00</distanceToSample>
+				<height unit="mm">0.05</height>
+			</divergenceSlit>
+		</incidentBeamPath>
+		<beamKnife id="29030101" name="Beam knife high"/>
+		<sampleMovement xsi:type="spinningSampleMovementType">
+			<spinnerRevolutionTime unit="seconds">1.0</spinnerRevolutionTime>
+		</sampleMovement>
+		<diffractedBeamPath>
+			<radius unit="mm">145.00</radius>
+			<parallelPlateCollimator id="25020001" name="Parallel plate collimator 0.28°">
+				<opening unit="deg">0.28</opening>
+			</parallelPlateCollimator>
+			<detector id="7010020" name="PIXcel3D-Medipix3 1x1 detector" xsi:type="areaDetectorType">
+				<phd unit="keV">
+					<lowerLevel>4.0</lowerLevel>
+					<upperLevel>11.3</upperLevel>
+				</phd>
+				<mode>Scanning</mode>
+				<activeChannelsEquatorial>255</activeChannelsEquatorial>
+				<activeChannelsAxial>255</activeChannelsAxial>
+				<pitchEquatorial unit="mm">0.05500</pitchEquatorial>
+				<pitchAxial unit="mm">0.05500</pitchAxial>
+				<readOutPeriod unit="seconds">1.960</readOutPeriod>
+			</detector>
+		</diffractedBeamPath>
+		<scan appendNumber="0" mode="Continuous" scanAxis="2Theta" status="Completed">
+			<header>
+				<startTimeStamp>2025-04-29T07:05:29-08:00</startTimeStamp>
+				<endTimeStamp>2025-04-29T08:13:57-08:00</endTimeStamp>
+				<author>
+					<name>Instrument</name>
+				</author>
+				<source>
+					<applicationSoftware version="1.6 (94)">PANalytical Aeris Instrument Suite</applicationSoftware>
+					<instrumentControlSoftware version="3.0.0 20211014">AERIS</instrumentControlSoftware>
+					<instrumentID>2855484</instrumentID>
+				</source>
+			</header>
+			<dataPoints>
+				<positions axis="2Theta" unit="deg">
+					<startPosition>25.01173288</startPosition>
+					<endPosition>64.95676632</endPosition>
+				</positions>
+				<positions axis="Omega" unit="deg">
+					<commonPosition>10.000</commonPosition>
+				</positions>
+				<commonCountingTime unit="seconds">996.540</commonCountingTime>
+				<counts unit="counts">35 29 24 36 34 30 31 31 23 28 33 29 34 35 20 33 28 36 25 35 28 29 39 27 27 36 39 24 31 32 37 38 25 21 36 39 28 28 16 33 32 44 36 22 25 30 31 27 34 34 21 34 24 24 30 35 38 32 26 31 15 30 34 31 33 41 20 31 23 30 27 28 33 26 30 32 28 32 34 133 81 112 40 29 27 26 46 25 32 24 36 30 28 28 21 32 23 28 35 28 29 26 35 22 25 29 26 26 35 27 29 20 27 17 28 38 38 39 47 31 27 20 26 22 31 33 34 24 39 39 20 25 31 32 37 31 37 37 39 26 24 30 29 35 34 36 27 23 27 32 22 20 35 28 36 24 22 31 33 27 24 25 39 36 33 28 30 29 34 24 36 35 26 31 41 31 38 23 35 19 28 24 38 28 22 25 38 34 33 22 42 24 22 38 25 29 32 39 31 33 28 35 30 41 34 32 27 31 26 20 35 28 34 30 33 25 25 45 22 29 38 41 33 36 17 25 31 33 36 40 24 36 33 42 21 25 34 30 35 27 36 30 28 32 28 45 43 26 42 40 34 30 37 31 40 34 38 36 24 24 25 27 36 33 24 28 22 35 30 31 17 26 32 24 37 23 39 30 44 29 25 32 38 34 25 30 35 31 30 27 25 33 41 36 18 25 35 30 36 23 33 38 31 30 43 39 22 26 34 37 34 34 27 42 41 23 36 31 40 30 23 38 34 41 24 30 45 40 37 33 35 44 30 24 26 34 40 31 35 23 39 31 25 30 29 39 38 21 26 38 32 37 37 23 31 39 29 37 35 39 41 41 30 36 42 33 41 31 36 38 41 31 32 37 28 25 42 38 40 34 36 37 40 31 49 35 39 42 41 34 35 34 31 32 38 36 33 35 29 38 26 28 36 29 29 31 31 31 34 33 40 39 33 27 29 28 35 30 40 44 38 30 47 34 32 37 42 32 29 41 30 42 44 33 40 32 33 32 27 32 31 35 25 27 31 41 26 34 31 26 35 30 33 38 26 36 38 24 26 28 27 36 46 34 37 38 52 34 39 29 29 35 36 37 27 30 42 30 33 48 32 35 38 40 29 31 39 31 31 35 35 35 37 38 32 31 43 39 31 33 36 40 41 43 32 27 22 27 41 35 38 38 50 33 34 33 39 34 35 39 35 31 22 42 39 34 34 44 39 36 31 37 29 24 34 34 43 31 38 42 33 30 38 39 29 21 37 31 33 53 28 41 29 33 45 25 32 30 43 35 38 43 33 30 41 39 40 46 42 31 28 33 31 36 39 33 38 30 33 37 48 49 51 42 38 39 36 47 32 36 26 40 30 35 32 39 36 29 25 36 48 32 39 33 31 39 36 38 35 31 42 54 47 40 58 38 33 41 38 33 33 33 33 34 41 30 31 38 48 32 29 49 40 35 46 50 32 51 34 39 40 34 34 37 37 44 32 33 36 27 34 40 38 32 33 47 45 38 29 27 47 31 37 27 39 37 38 37 31 41 48 42 44 43 40 45 47 44 33 40 45 43 38 40 30 28 37 40 41 42 52 29 42 40 36 39 44 44 31 38 37 44 41 51 30 44 45 36 39 38 33 39 29 41 36 40 41 31 37 37 46 33 33 52 51 34 47 37 42 37 37 39 43 57 45 44 38 51 43 48 43 49 17 42 48 36 43 50 31 40 38 47 48 53 40 53 40 30 44 47 57 34 36 33 39 45 37 32 21 35 45 39 35 37 44 31 38 33 37 42 32 32 46 35 29 34 38 40 20 34 41 38 40 37 37 35 38 37 26 31 25 32 43 36 25 33 39 44 41 34 39 36 18 36 44 41 46 42 37 43 31 43 44 31 34 32 28 36 35 43 38 31 32 41 39 35 40 36 40 36 45 30 31 30 39 36 42 39 35 44 35 34 32 32 32 49 39 43 47 48 45 41 32 44 33 32 28 26 23 48 40 29 34 48 33 34 27 45 25 34 45 33 39 46 25 29 36 40 29 43 34 49 33 42 29 32 29 42 29 39 39 42 33 32 30 34 42 46 40 35 41 43 37 39 44 42 32 35 43 21</counts>
+			</dataPoints>
+		</scan>
+	</xrdMeasurement>
+</xrdMeasurements>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0"?>
+<xrdMeasurements xmlns="http://www.xrdml.com/XRDMeasurement/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xrdml.com/XRDMeasurement/2.2 http://www.xrdml.com/XRDMeasurement/2.2/XRDMeasurement.xsd" status="Aborted" recordIdentifier="{378253F1-914B-4B0D-AAFC-BC3DC1873918}">
+	<comment>
+		<entry/>
+	</comment>
+	<sample type="To be analyzed">
+		<id>p</id>
+		<name></name>
+		<preparedBy></preparedBy>
+	</sample>
+	<xrdMeasurement measurementType="Scan" status="Aborted" sampleMode="Reflection">
+		<usedWavelength intended="K-Alpha 1">
+			<kAlpha1 unit="Angstrom">1.5405980</kAlpha1>
+			<kAlpha2 unit="Angstrom">1.5444260</kAlpha2>
+			<kBeta unit="Angstrom">1.3922500</kBeta>
+			<ratioKAlpha2KAlpha1>0.5000</ratioKAlpha2KAlpha1>
+		</usedWavelength>
+		<incidentBeamPath>
+			<radius unit="mm">145.00</radius>
+			<xRayTube id="1010048" name="Empyrean Cu LFF HR (9430 033 7310x) DK437964">
+				<tension unit="kV">40.0</tension>
+				<current unit="mA">15.0</current>
+				<anodeMaterial>Cu</anodeMaterial>
+				<focus type="Line">
+					<length unit="mm">12.0</length>
+					<width unit="mm">0.4</width>
+					<takeOffAngle unit="deg">6.0</takeOffAngle>
+				</focus>
+			</xRayTube>
+			<filter id="20010004" name="Beta-filter Nickel">
+				<material>Ni</material>
+				<thickness unit="mm">0.020</thickness>
+			</filter>
+			<sollerSlit id="21010002" name="Soller slits 0.04 rad.">
+				<opening unit="rad">0.0400</opening>
+			</sollerSlit>
+			<mask id="22031000" name="Fixed mask 13 mm">
+				<width unit="mm">9.00</width>
+			</mask>
+		</incidentBeamPath>
+		<diffractedBeamPath>
+			<radius unit="mm">145.00</radius>
+			<parallelPlateCollimator id="25020001" name="Parallel plate collimator 0.28°">
+				<opening unit="deg">0.28</opening>
+			</parallelPlateCollimator>
+			<detector id="7010020" name="PIXcel3D-Medipix3 1x1 detector" xsi:type="areaDetectorType">
+				<phd unit="keV">
+					<lowerLevel>4.0</lowerLevel>
+					<upperLevel>11.3</upperLevel>
+				</phd>
+				<mode>Receiving slit</mode>
+				<activeChannelsEquatorial>255</activeChannelsEquatorial>
+				<activeChannelsAxial>255</activeChannelsAxial>
+				<pitchEquatorial unit="mm">0.05500</pitchEquatorial>
+				<pitchAxial unit="mm">0.05500</pitchAxial>
+				<readOutPeriod unit="seconds">0.050</readOutPeriod>
+			</detector>
+		</diffractedBeamPath>
+		<scan appendNumber="0" mode="Continuous" scanAxis="2Theta" status="Aborted">
+			<header>
+				<startTimeStamp>2025-07-01T07:09:14-08:00</startTimeStamp>
+				<endTimeStamp>2025-07-01T07:46:20-08:00</endTimeStamp>
+				<author>
+					<name>Instrument</name>
+				</author>
+				<source>
+					<applicationSoftware version="1.6 (94)">PANalytical Aeris Instrument Suite</applicationSoftware>
+					<instrumentControlSoftware version="3.0.0 20211014">AERIS</instrumentControlSoftware>
+					<instrumentID>2855484</instrumentID>
+				</source>
+			</header>
+			<dataPoints>
+				<positions axis="2Theta" unit="deg">
+					<startPosition>21.005</startPosition>
+					<endPosition>26.535</endPosition>
+				</positions>
+				<positions axis="Omega" unit="deg">
+					<commonPosition>25.000</commonPosition>
+				</positions>
+				<commonCountingTime unit="seconds">3.520</commonCountingTime>
+				<counts unit="counts">7726 7696 7724 7585 7614 7561 7662 7516 7631 7673 7500 7599 7423 7539 7649 7678 7572 7581 7382 7547 7549 7621 7537 7495 7593 7590 7533 7466 7653 7634 7643 7544 7585 7545 7500 7637 7482 7728 7537 7529 7468 7583 7612 7669 7675 7594 7499 7576 7710 7618 7570 7535 7807 7606 7690 7697 7579 7625 7497 7666 7507 7515 7461 7596 7716 7780 7590 7636 7633 7426 7561 7693 7543 7775 7535 7588 7707 7586 7601 7430 7586 7616 7571 7728 7484 7607 7646 7706 7641 7673 7669 7651 7737 7624 7580 7631 7569 7550 7653 7533 7795 7583 7702 7684 7550 7576 7611 7560 7750 7718 7652 7454 7564 7647 7441 7591 7600 7573 7791 7530 7571 7540 7637 7738 7708 7646 7537 7564 7463 7676 7598 7625 7761 7501 7626 7738 7858 7624 7654 7476 7708 7570 7607 7650 7606 7700 7547 7598 7679 7765 7663 7457 7539 7632 7530 7532 7728 7703 7764 7654 7564 7733 7421 7548 7725 7697 7546 7579 7658 7541 7675 7524 7662 7638 7627 7735 7520 7636 7664 7730 7597 7588 7618 7580 7492 7561 7692 7578 7772 7529 7643 7462 7424 7541 7827 7522 7732 7706 7735 7620 7670 7700 7655 7609 7613 7549 7609 7577 7557 7619 7694 7618 7615 7631 7801 7455 7570 7664 7648 7637 7508 7677 7683 7628 7572 7584 7553 7653 7568 7503 7476 7631 7647 7619 7693 7730 7588 7646 7653 7495 7680 7692 7539 7549 7757 7638 7635 7572 7696 7593 7434 7587 7632 7584 7551 7716 7665 7556 7763 7639 7566 7728 7647 7561 7458 7660 7561 7704 7752 7610 7597 7520 7635 7670 7699 7814 7603 7674 7573 7340 7595 7510 7656 7560 7681 7628 7549 7561 7631 7435 7836 7710 7500 7461 7526 7580 7464 7555 7283 7536 7467 7627 7603 7722 7560 7675 7438 7733 7465 7656 7564 7725 7523 7592 7532 7678 7635 7791 7479 7815 7560 7668 7742 7821 7744 7898 7754 7872 7938 7830 7806 8020 8029 8080 8121 8092 8283 8367 8307 8306 8216 8547 8330 8401 8447 8544 8575 8509 8627 8663 8627 8886 8940 8837 9039 9103 9153 9066 9354 9177 9469 9657 9471 9418 9651 9598 9701 9794 9699 10009 9870 10103 9978 10063 10150 10178 10235 10058 10326 10500 10523 10475 10462 10242 10602 10407 10457 10674 10645 10642 10526 10915 10690 10729 10945 10912 10874 10827 11028 11114 10944 10971 10890 11056 11113 11128 11114 11095 11227 11296 11174 11160 11379 11317 11165 11177 11120 11198 11193 11535 11424 11502 11432 11245 11386 11402 11449 11500 11696 11711 11680 11713 11687 11508 11790 11823 11871 11545 11630 11906 11777 11618 11620 12070 12003 11990 11842 11797 11799 12034 11850 11804 11902 11971 12105 11819 11784 11976 11875 11922 11893 12114 11889 11809 11858 12100 11731 12149 11863 11806 11791 11985 12257 12053 12135 12038 12086 11969 12082 12039 11931 11880 11953 12114 12117 12104 12161 12060 12117 12226 12115 12123 12110 12286 12371 12134 12306 12245 12084 12208 12071 11980 12084 12232 12101 12089 12176 12249 12337 12444 12172 12226 12325 12175 12238 12202 12380 12291 12332 12301 12372 12438 12412 12311 12237 12495 12316 12216 12458 12234 12253 12356 12413 12596 12354 12265 12398 12420 12450 12286 12365 12238 12300 12363 12321 12264 12379 12407 12207 12264 12330 12325 12319 12374</counts>
+			</dataPoints>
+		</scan>
+	</xrdMeasurement>
+</xrdMeasurements>

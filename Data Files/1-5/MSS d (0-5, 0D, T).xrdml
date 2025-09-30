@@ -1,0 +1,90 @@
+﻿<?xml version="1.0"?>
+<xrdMeasurements xmlns="http://www.xrdml.com/XRDMeasurement/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xrdml.com/XRDMeasurement/2.2 http://www.xrdml.com/XRDMeasurement/2.2/XRDMeasurement.xsd" status="Completed" recordIdentifier="{992A8B36-CC4B-4B1A-87CC-9CDDBED42554}">
+	<comment>
+		<entry/>
+	</comment>
+	<sample type="To be analyzed">
+		<id>doped wafer</id>
+		<name></name>
+		<preparedBy></preparedBy>
+	</sample>
+	<xrdMeasurement measurementType="Scan" status="Completed" sampleMode="Reflection">
+		<usedWavelength intended="K-Alpha 1">
+			<kAlpha1 unit="Angstrom">1.5405980</kAlpha1>
+			<kAlpha2 unit="Angstrom">1.5444260</kAlpha2>
+			<kBeta unit="Angstrom">1.3922500</kBeta>
+			<ratioKAlpha2KAlpha1>0.5000</ratioKAlpha2KAlpha1>
+		</usedWavelength>
+		<incidentBeamPath>
+			<radius unit="mm">145.00</radius>
+			<xRayTube id="1010048" name="Empyrean Cu LFF HR (9430 033 7310x) DK437964">
+				<tension unit="kV">15.0</tension>
+				<current unit="mA">5.0</current>
+				<anodeMaterial>Cu</anodeMaterial>
+				<focus type="Line">
+					<length unit="mm">12.0</length>
+					<width unit="mm">0.4</width>
+					<takeOffAngle unit="deg">6.0</takeOffAngle>
+				</focus>
+			</xRayTube>
+			<filter id="20010004" name="Beta-filter Nickel">
+				<material>Ni</material>
+				<thickness unit="mm">0.020</thickness>
+			</filter>
+			<sollerSlit id="21010001" name="Soller slits 0.02 rad.">
+				<opening unit="rad">0.0200</opening>
+			</sollerSlit>
+			<mask id="22031000" name="Fixed mask 13 mm">
+				<width unit="mm">9.00</width>
+			</mask>
+			<divergenceSlit id="22120006" name="Divergence slit 1/32°" xsi:type="fixedDivergenceSlitType">
+				<distanceToSample unit="mm">50.00</distanceToSample>
+				<height unit="mm">0.05</height>
+			</divergenceSlit>
+		</incidentBeamPath>
+		<diffractedBeamPath>
+			<radius unit="mm">145.00</radius>
+			<parallelPlateCollimator id="25020001" name="Parallel plate collimator 0.28°">
+				<opening unit="deg">0.28</opening>
+			</parallelPlateCollimator>
+			<detector id="7010020" name="PIXcel3D-Medipix3 1x1 detector" xsi:type="areaDetectorType">
+				<phd unit="keV">
+					<lowerLevel>4.0</lowerLevel>
+					<upperLevel>11.3</upperLevel>
+				</phd>
+				<mode>Receiving slit</mode>
+				<activeChannelsEquatorial>255</activeChannelsEquatorial>
+				<activeChannelsAxial>255</activeChannelsAxial>
+				<pitchEquatorial unit="mm">0.05500</pitchEquatorial>
+				<pitchAxial unit="mm">0.05500</pitchAxial>
+				<readOutPeriod unit="seconds">0.050</readOutPeriod>
+			</detector>
+		</diffractedBeamPath>
+		<scan appendNumber="0" mode="Continuous" scanAxis="Gonio" status="Completed">
+			<header>
+				<startTimeStamp>2025-05-13T08:56:28-08:00</startTimeStamp>
+				<endTimeStamp>2025-05-13T09:29:51-08:00</endTimeStamp>
+				<author>
+					<name>Instrument</name>
+				</author>
+				<source>
+					<applicationSoftware version="1.6 (94)">PANalytical Aeris Instrument Suite</applicationSoftware>
+					<instrumentControlSoftware version="3.0.0 20211014">AERIS</instrumentControlSoftware>
+					<instrumentID>2855484</instrumentID>
+				</source>
+			</header>
+			<dataPoints>
+				<positions axis="2Theta" unit="deg">
+					<startPosition>0.005</startPosition>
+					<endPosition>4.995</endPosition>
+				</positions>
+				<positions axis="Omega" unit="deg">
+					<startPosition>0.0025</startPosition>
+					<endPosition>2.4975</endPosition>
+				</positions>
+				<commonCountingTime unit="seconds">3.520</commonCountingTime>
+				<counts unit="counts">954006 1188700 1173212 1133737 1085723 1034409 982743 930052 872650 813243 749377 688807 628445 574640 523219 474039 428205 382304 341179 305781 274748 248775 224087 203234 181928 160088 140662 123935 109956 100102 90618 84132 78958 75098 72248 69166 66226 64293 61776 59034 56518 54865 52344 50729 49188 47318 45634 44072 42575 41658 40555 39468 38030 36779 36563 35506 34364 33924 33144 32575 32170 31447 30527 30095 29915 29392 29158 28925 28323 28149 27954 27707 27294 27509 27740 27246 27115 26967 27176 27337 27001 27271 26952 26804 27017 26734 26594 26240 26295 26272 26554 26125 26457 26217 26337 26504 26322 26627 26839 26873 26792 26547 26648 26931 26625 26888 26686 26532 26498 26748 26551 26739 26627 26604 26505 26394 26526 26253 26486 26614 26441 26505 26540 26496 26807 26869 27105 27314 27287 27526 27396 28010 27934 28392 28208 28234 28541 28762 28701 28641 28637 28526 28564 28610 28675 28464 28593 28894 28843 28514 28909 28915 28688 28878 28903 28657 28794 28594 28545 28708 28858 28673 28377 28334 28375 28420 28082 28266 28604 28362 28876 29133 28953 28699 28906 29108 28823 28681 28598 28851 28374 28361 28444 28227 28237 27711 27762 27649 27509 27575 27679 27701 27663 27764 27924 27877 27705 27561 27754 27643 27525 27957 27816 27493 27475 27485 27343 27121 27278 26886 26875 26134 25812 25226 24815 23329 23042 22149 21188 20638 19855 18883 17997 17117 16829 15797 15263 14457 13969 13377 13002 12839 12605 12357 12022 11858 11428 11130 10982 10606 10314 9942 9435 9064 8661 8027 7674 7398 7062 6747 6445 6229 6185 6007 5824 5878 5784 5731 5663 5596 5495 5412 5542 5362 5283 5337 5196 5142 4850 4951 4860 4661 4635 4521 4579 4476 4440 4411 4288 4330 4315 4237 4287 4181 4199 4139 4156 4194 4277 4298 4272 4218 4168 4219 4124 4095 4096 4115 4004 3891 3884 3965 3859 3713 3760 3783 3827 3855 3772 3767 3755 3832 3861 3906 3880 3754 3649 3767 3796 3787 3784 3693 3821 3692 3756 3803 3742 3771 3694 3734 3588 3587 3649 3709 3677 3691 3567 3697 3676 3754 3574 3645 3544 3626 3580 3615 3498 3546 3513 3479 3628 3545 3535 3557 3633 3631 3601 3571 3629 3538 3616 3558 3506 3542 3552 3453 3497 3572 3515 3541 3446 3492 3516 3468 3583 3609 3666 3638 3692 3750 3475 3708 3644 3585 3661 3539 3721 3727 3591 3734 3499 3721 3539 3628 3571 3627 3574 3615 3570 3529 3646 3503 3554 3679 3656 3644 3545 3456 3470 3500 3562 3496 3490 3515 3615 3370 3397 3430 3377 3346 3296 3247 3095 3126 3167 3110 2997 2960 2994 2933 2922 2786 2863 2767 2777 2741 2765 2630 2661 2706 2615 2697 2784 2769 2709 2750 2716 2752 2759 2691 2815 2746 2724 2867 2734 2688 2637 2574 2669 2643 2587 2522 2511 2528 2370 2327 2384 2319 2299 2264 2296 2313 2178 2230 2230 2077 2152 2191 2213 2065 2119 2120 2057 1932 2026 1939 2004 1926 1888 1877 1944 1857 1862 1674 1792 1727 1700 1757 1690 1465</counts>
+			</dataPoints>
+		</scan>
+	</xrdMeasurement>
+</xrdMeasurements>

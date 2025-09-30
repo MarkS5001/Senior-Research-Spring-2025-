@@ -1,0 +1,89 @@
+﻿<?xml version="1.0"?>
+<xrdMeasurements xmlns="http://www.xrdml.com/XRDMeasurement/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xrdml.com/XRDMeasurement/2.2 http://www.xrdml.com/XRDMeasurement/2.2/XRDMeasurement.xsd" status="Completed" recordIdentifier="{E2CF4619-E52C-4845-B471-16DFECA7407F}">
+	<comment>
+		<entry/>
+	</comment>
+	<sample type="To be analyzed">
+		<id>doped wafer</id>
+		<name></name>
+		<preparedBy></preparedBy>
+	</sample>
+	<xrdMeasurement measurementType="Scan" status="Completed" sampleMode="Reflection">
+		<usedWavelength intended="K-Alpha 1">
+			<kAlpha1 unit="Angstrom">1.5405980</kAlpha1>
+			<kAlpha2 unit="Angstrom">1.5444260</kAlpha2>
+			<kBeta unit="Angstrom">1.3922500</kBeta>
+			<ratioKAlpha2KAlpha1>0.5000</ratioKAlpha2KAlpha1>
+		</usedWavelength>
+		<incidentBeamPath>
+			<radius unit="mm">145.00</radius>
+			<xRayTube id="1010048" name="Empyrean Cu LFF HR (9430 033 7310x) DK437964">
+				<tension unit="kV">40.0</tension>
+				<current unit="mA">15.0</current>
+				<anodeMaterial>Cu</anodeMaterial>
+				<focus type="Line">
+					<length unit="mm">12.0</length>
+					<width unit="mm">0.4</width>
+					<takeOffAngle unit="deg">6.0</takeOffAngle>
+				</focus>
+			</xRayTube>
+			<filter id="20010004" name="Beta-filter Nickel">
+				<material>Ni</material>
+				<thickness unit="mm">0.020</thickness>
+			</filter>
+			<sollerSlit id="21010001" name="Soller slits 0.02 rad.">
+				<opening unit="rad">0.0200</opening>
+			</sollerSlit>
+			<mask id="22210002" name="2D Mask">
+				<width unit="mm">1.60</width>
+			</mask>
+			<divergenceSlit id="22120004" name="Divergence slit 1/8°" xsi:type="fixedDivergenceSlitType">
+				<distanceToSample unit="mm">50.00</distanceToSample>
+				<height unit="mm">0.19</height>
+			</divergenceSlit>
+		</incidentBeamPath>
+		<beamKnife id="29030101" name="Beam knife high"/>
+		<diffractedBeamPath>
+			<radius unit="mm">145.00</radius>
+			<parallelPlateCollimator id="25020001" name="Parallel plate collimator 0.28°">
+				<opening unit="deg">0.28</opening>
+			</parallelPlateCollimator>
+			<detector id="7010020" name="PIXcel3D-Medipix3 1x1 detector" xsi:type="areaDetectorType">
+				<phd unit="keV">
+					<lowerLevel>4.0</lowerLevel>
+					<upperLevel>11.3</upperLevel>
+				</phd>
+				<mode>Static</mode>
+				<activeChannelsEquatorial>255</activeChannelsEquatorial>
+				<activeChannelsAxial>255</activeChannelsAxial>
+				<pitchEquatorial unit="mm">0.05500</pitchEquatorial>
+				<pitchAxial unit="mm">0.05500</pitchAxial>
+				<readOutPeriod unit="seconds">0.050</readOutPeriod>
+			</detector>
+		</diffractedBeamPath>
+		<scan appendNumber="0" mode="Continuous" scanAxis="2Theta" status="Completed">
+			<header>
+				<startTimeStamp>2025-05-13T07:47:41-08:00</startTimeStamp>
+				<endTimeStamp>2025-05-13T07:47:45-08:00</endTimeStamp>
+				<author>
+					<name>Instrument</name>
+				</author>
+				<source>
+					<applicationSoftware version="1.6 (94)">PANalytical Aeris Instrument Suite</applicationSoftware>
+					<instrumentControlSoftware version="3.0.0 20211014">AERIS</instrumentControlSoftware>
+					<instrumentID>2855484</instrumentID>
+				</source>
+			</header>
+			<dataPoints>
+				<positions axis="2Theta" unit="deg">
+					<listPositions>4.01105604 4.03273900 4.05442275 4.07610727 4.09779256 4.11947862 4.14116544 4.16285302 4.18454134 4.20623040 4.22792020 4.24961072 4.27130197 4.29299394 4.31468661 4.33637999 4.35807407 4.37976884 4.40146429 4.42316042 4.44485723 4.46655471 4.48825284 4.50995163 4.53165107 4.55335115 4.57505186 4.59675321 4.61845518 4.64015776 4.66186096 4.68356476 4.70526916 4.72697416 4.74867974 4.77038590 4.79209263 4.81379993 4.83550780 4.85721622 4.87892518 4.90063470 4.92234474 4.94405532 4.96576642 4.98747804 5.00919018 5.03090281 5.05261595 5.07432958 5.09604370 5.11775829 5.13947337 5.16118891 5.18290491 5.20462137 5.22633828 5.24805563 5.26977342 5.29149164 5.31321028 5.33492934 5.35664882 5.37836870 5.40008898 5.42180965 5.44353071 5.46525216 5.48697397 5.50869616 5.53041871 5.55214161 5.57386487 5.59558847 5.61731240 5.63903667 5.66076126 5.68248617 5.70421139 5.72593692 5.74766275 5.76938887 5.79111528 5.81284197 5.83456894 5.85629617 5.87802367 5.89975143 5.92147943 5.94320768 5.96493616 5.98666488 6.00839382 6.03012298 6.05185235 6.07358193 6.09531171 6.11704169 6.13877185 6.16050219 6.18223271 6.20396339 6.22569424 6.24742525 6.26915640 6.29088770 6.31261914 6.33435070 6.35608240 6.37781421 6.39954613 6.42127816 6.44301029 6.46474252 6.48647483 6.50820722 6.52993969 6.55167222 6.57340482 6.59513748 6.61687019 6.63860293 6.66033572 6.68206854 6.70380138 6.72553424 6.74726712 6.76900000 6.79073288 6.81246576 6.83419862 6.85593146 6.87766428 6.89939707 6.92112981 6.94286252 6.96459518 6.98632778 7.00806031 7.02979278 7.05152517 7.07325748 7.09498971 7.11672184 7.13845387 7.16018579 7.18191760 7.20364930 7.22538086 7.24711230 7.26884360 7.29057475 7.31230576 7.33403661 7.35576729 7.37749781 7.39922815 7.42095831 7.44268829 7.46441807 7.48614765 7.50787702 7.52960618 7.55133512 7.57306384 7.59479232 7.61652057 7.63824857 7.65997633 7.68170383 7.70343106 7.72515803 7.74688472 7.76861113 7.79033725 7.81206308 7.83378861 7.85551383 7.87723874 7.89896333 7.92068760 7.94241153 7.96413513 7.98585839 8.00758129 8.02930384 8.05102603 8.07274784 8.09446929 8.11619035 8.13791102 8.15963130 8.18135118 8.20307066 8.22478972 8.24650836 8.26822658 8.28994437 8.31166172 8.33337863 8.35509509 8.37681109 8.39852663 8.42024171 8.44195630 8.46367042 8.48538405 8.50709719 8.52880982 8.55052196 8.57223358 8.59394468 8.61565526 8.63736530 8.65907482 8.68078378 8.70249220 8.72420007 8.74590737 8.76761410 8.78932026 8.81102584 8.83273084 8.85443524 8.87613904 8.89784224 8.91954482 8.94124679 8.96294814 8.98464885 9.00634893 9.02804837 9.04974716 9.07144529 9.09314277 9.11483958 9.13653571 9.15823116 9.17992593 9.20162001 9.22331339 9.24500606 9.26669803 9.28838928 9.31007980 9.33176960 9.35345866 9.37514698 9.39683456 9.41852138 9.44020744 9.46189273 9.48357725 9.50526100 9.52694396</listPositions>
+				</positions>
+				<positions axis="Omega" unit="deg">
+					<commonPosition>5.000</commonPosition>
+				</positions>
+				<commonCountingTime unit="seconds">0.880</commonCountingTime>
+				<counts unit="counts">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 2 0 0 0 0 1 0 1 1 0 0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</counts>
+			</dataPoints>
+		</scan>
+	</xrdMeasurement>
+</xrdMeasurements>

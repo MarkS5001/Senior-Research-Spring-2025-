@@ -1,0 +1,118 @@
+﻿<?xml version="1.0"?>
+<xrdMeasurements xmlns="http://www.xrdml.com/XRDMeasurement/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xrdml.com/XRDMeasurement/2.2 http://www.xrdml.com/XRDMeasurement/2.2/XRDMeasurement.xsd" status="Aborted" recordIdentifier="{4C18F0A4-D3DF-4146-ABDC-9A60B1C39C20}">
+	<comment>
+		<entry/>
+	</comment>
+	<sample type="To be analyzed">
+		<id>doped wafer</id>
+		<name></name>
+		<preparedBy></preparedBy>
+	</sample>
+	<xrdMeasurement measurementType="Repeated scan" status="Aborted" sampleMode="Reflection">
+		<usedWavelength intended="K-Alpha 1">
+			<kAlpha1 unit="Angstrom">1.5405980</kAlpha1>
+			<kAlpha2 unit="Angstrom">1.5444260</kAlpha2>
+			<kBeta unit="Angstrom">1.3922500</kBeta>
+			<ratioKAlpha2KAlpha1>0.5000</ratioKAlpha2KAlpha1>
+		</usedWavelength>
+		<incidentBeamPath>
+			<radius unit="mm">145.00</radius>
+			<xRayTube id="1010048" name="Empyrean Cu LFF HR (9430 033 7310x) DK437964">
+				<tension unit="kV">40.0</tension>
+				<current unit="mA">15.0</current>
+				<anodeMaterial>Cu</anodeMaterial>
+				<focus type="Line">
+					<length unit="mm">12.0</length>
+					<width unit="mm">0.4</width>
+					<takeOffAngle unit="deg">6.0</takeOffAngle>
+				</focus>
+			</xRayTube>
+			<filter id="20010004" name="Beta-filter Nickel">
+				<material>Ni</material>
+				<thickness unit="mm">0.020</thickness>
+			</filter>
+			<sollerSlit id="21010001" name="Soller slits 0.02 rad.">
+				<opening unit="rad">0.0200</opening>
+			</sollerSlit>
+			<mask id="22210002" name="2D Mask">
+				<width unit="mm">1.60</width>
+			</mask>
+			<divergenceSlit id="22120006" name="Divergence slit 1/32°" xsi:type="fixedDivergenceSlitType">
+				<distanceToSample unit="mm">50.00</distanceToSample>
+				<height unit="mm">0.05</height>
+			</divergenceSlit>
+		</incidentBeamPath>
+		<beamKnife id="29030101" name="Beam knife high"/>
+		<sampleMovement xsi:type="spinningSampleMovementType">
+			<spinnerRevolutionTime unit="seconds">1.0</spinnerRevolutionTime>
+		</sampleMovement>
+		<diffractedBeamPath>
+			<radius unit="mm">145.00</radius>
+			<parallelPlateCollimator id="25020001" name="Parallel plate collimator 0.28°">
+				<opening unit="deg">0.28</opening>
+			</parallelPlateCollimator>
+			<detector id="7010020" name="PIXcel3D-Medipix3 1x1 detector" xsi:type="areaDetectorType">
+				<phd unit="keV">
+					<lowerLevel>4.0</lowerLevel>
+					<upperLevel>11.3</upperLevel>
+				</phd>
+				<mode>Scanning</mode>
+				<activeChannelsEquatorial>255</activeChannelsEquatorial>
+				<activeChannelsAxial>255</activeChannelsAxial>
+				<pitchEquatorial unit="mm">0.05500</pitchEquatorial>
+				<pitchAxial unit="mm">0.05500</pitchAxial>
+				<readOutPeriod unit="seconds">0.470</readOutPeriod>
+			</detector>
+		</diffractedBeamPath>
+		<scan appendNumber="0" mode="Continuous" scanAxis="2Theta" status="Completed">
+			<header>
+				<startTimeStamp>2025-04-25T12:42:47-08:00</startTimeStamp>
+				<endTimeStamp>2025-04-25T12:48:26-08:00</endTimeStamp>
+				<author>
+					<name>Instrument</name>
+				</author>
+				<source>
+					<applicationSoftware version="1.6 (94)">PANalytical Aeris Instrument Suite</applicationSoftware>
+					<instrumentControlSoftware version="3.0.0 20211014">AERIS</instrumentControlSoftware>
+					<instrumentID>2855484</instrumentID>
+				</source>
+			</header>
+			<dataPoints>
+				<positions axis="2Theta" unit="deg">
+					<startPosition>30.01086644</startPosition>
+					<endPosition>39.98625836</endPosition>
+				</positions>
+				<positions axis="Omega" unit="deg">
+					<commonPosition>2.000</commonPosition>
+				</positions>
+				<commonCountingTime unit="seconds">118.320</commonCountingTime>
+				<counts unit="counts">1 4 4 1 0 1 4 2 5 3 2 5 0 3 2 0 4 6 9 7 4 8 3 4 8 5 6 5 2 2 0 6 6 4 4 2 3 3 3 6 3 6 1 2 3 6 6 0 4 3 3 4 5 3 1 3 2 5 4 2 2 4 5 1 2 4 4 2 3 8 6 0 2 2 4 5 2 3 6 7 4 7 5 3 5 3 5 7 2 9 0 5 6 6 7 1 5 6 1 4 1 3 4 6 3 6 3 5 3 4 6 2 1 0 7 2 1 9 7 3 3 5 7 1 7 1 5 6 0 3 6 3 3 6 7 3 6 3 5 6 5 5 5 5 2 2 1 12 6 5 1 3 6 4 2 4 3 4 8 2 3 4 2 7 7 6 0 1 5 9 1 4 2 0 7 5 3 2 1 4 6 1 5 4 4 4 5 3 4 8 2 1 8 3 6 6 8 5 4 5 4 6 4 6 8 5 8 7 6 8 6 3 7 3 4 3 3 3 7 2 2 4 3 1 5 6 4 6 5 9 7 8 3 5 7 6 7 1 4 7 2 1 5 7 0 2 4 8 2 4 4 2 9 4 2 5 4 4 4 3 5 2 3 4 7 4 5 4 4 9 2 8 5 7 1 2 4 3 4 3 4 2 4 4 6 5 7 7 5 3 1 6 10 1 1 1 7 4 6 5 4 4 4 5 1 4 2 3 3 5 0 3 5 2 5 5 1 3 2 4 4 4 1 1 3 5 2 4 6 2 0 5 0 7 2 2 2 1 3 0 5 5 7 4 1 3 2 3 2 3 4 1 3 4 4 5 4 1 4 2 4 6 1 0 1 3 3 2 4 4 3 3 6 7 2 0 3 3 1 3 1 5 4 1 2 3 11 4 3 5 4 3 1 0 3 1 4 8 7 4 5 7 5 3 7 4 5 9 7 6 9 2 4 6 0 5 6 5 2 3 9 5 3 5 6 0 3 6 1 1 5 2 3 4 7 10 4 2 4 2 3 5 5 4 5 4 5 12 7 5 1 5 3 7 9 3 11 6 8 3</counts>
+			</dataPoints>
+		</scan>
+		<scan appendNumber="0" mode="Continuous" scanAxis="2Theta" status="Completed">
+			<header>
+				<startTimeStamp>2025-04-25T12:48:27-08:00</startTimeStamp>
+				<endTimeStamp>2025-04-25T12:54:08-08:00</endTimeStamp>
+				<author>
+					<name>Instrument</name>
+				</author>
+				<source>
+					<applicationSoftware version="1.6 (94)">PANalytical Aeris Instrument Suite</applicationSoftware>
+					<instrumentControlSoftware version="3.0.0 20211014">AERIS</instrumentControlSoftware>
+					<instrumentID>2855484</instrumentID>
+				</source>
+			</header>
+			<dataPoints>
+				<positions axis="2Theta" unit="deg">
+					<startPosition>30.01086644</startPosition>
+					<endPosition>39.98625836</endPosition>
+				</positions>
+				<positions axis="Omega" unit="deg">
+					<commonPosition>2.000</commonPosition>
+				</positions>
+				<commonCountingTime unit="seconds">118.320</commonCountingTime>
+				<counts unit="counts">1 2 1 2 1 9 1 4 2 7 0 5 4 1 0 9 4 5 3 3 7 4 3 4 0 2 4 1 3 3 0 2 5 5 3 2 4 2 3 3 4 6 6 3 1 4 3 2 4 3 5 3 6 2 4 2 0 1 2 0 3 5 4 0 5 3 3 1 4 3 4 4 7 2 5 1 2 4 3 2 4 4 5 2 1 4 1 4 3 4 5 1 2 4 7 0 3 3 2 4 4 1 5 3 0 0 2 0 5 9 6 5 5 5 5 2 5 5 6 7 3 4 6 3 4 5 4 3 6 4 3 1 6 3 3 5 3 2 1 3 3 4 3 0 5 4 2 2 4 3 4 1 4 5 3 6 0 3 5 3 8 4 3 12 7 2 7 1 3 3 3 4 1 1 4 2 1 9 3 2 3 5 6 3 4 1 7 6 5 6 3 7 7 4 9 4 7 2 7 3 4 2 4 4 1 0 6 4 2 3 1 6 6 2 12 1 3 2 6 8 5 5 3 4 3 5 1 5 3 7 3 3 7 5 4 4 2 7 6 1 2 2 7 7 3 5 7 2 3 4 2 4 4 4 0 4 3 5 4 3 3 1 1 0 3 6 2 3 0 2 2 3 4 7 1 10 7 3 6 3 2 3 5 5 4 2 6 4 5 3 4 4 4 7 3 3 4 9 5 3 6 7 5 2 3 5 2 3 2 6 2 0 4 0 1 5 3 4 2 1 1 0 3 2 3 0 3 7 5 4 5 3 2 3 3 1 4 0 4 5 2 7 3 3 3 1 4 4 2 9 6 1 3 1 3 2 5 1 2 2 6 1 2 7 3 4 3 3 7 7 3 2 6 5 3 3 4 2 4 8 4 6 0 2 5 6 3 8 4 5 5 4 4 7 7 7 6 3 6 0 0 3 6 5 1 3 5 6 10 4 0 6 5 4 4 4 7 3 1 3 2 2 7 7 8 5 3 3 6 5 4 7 6 1 4 3 4 2 4 1 5 2 0 6 6 2 2 5 3 2 5 1 7 4 6 6 13 7 6 2</counts>
+			</dataPoints>
+		</scan>
+	</xrdMeasurement>
+</xrdMeasurements>

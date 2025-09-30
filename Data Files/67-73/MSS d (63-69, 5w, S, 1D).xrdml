@@ -1,0 +1,92 @@
+﻿<?xml version="1.0"?>
+<xrdMeasurements xmlns="http://www.xrdml.com/XRDMeasurement/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xrdml.com/XRDMeasurement/2.2 http://www.xrdml.com/XRDMeasurement/2.2/XRDMeasurement.xsd" status="Completed" recordIdentifier="{DCBACB23-87A6-4134-AED2-CE3EAC023218}">
+	<comment>
+		<entry/>
+	</comment>
+	<sample type="To be analyzed">
+		<id>doped wafer</id>
+		<name></name>
+		<preparedBy></preparedBy>
+	</sample>
+	<xrdMeasurement measurementType="Scan" status="Completed" sampleMode="Reflection">
+		<usedWavelength intended="K-Alpha 1">
+			<kAlpha1 unit="Angstrom">1.5405980</kAlpha1>
+			<kAlpha2 unit="Angstrom">1.5444260</kAlpha2>
+			<kBeta unit="Angstrom">1.3922500</kBeta>
+			<ratioKAlpha2KAlpha1>0.5000</ratioKAlpha2KAlpha1>
+		</usedWavelength>
+		<incidentBeamPath>
+			<radius unit="mm">145.00</radius>
+			<xRayTube id="1010048" name="Empyrean Cu LFF HR (9430 033 7310x) DK437964">
+				<tension unit="kV">40.0</tension>
+				<current unit="mA">15.0</current>
+				<anodeMaterial>Cu</anodeMaterial>
+				<focus type="Line">
+					<length unit="mm">12.0</length>
+					<width unit="mm">0.4</width>
+					<takeOffAngle unit="deg">6.0</takeOffAngle>
+				</focus>
+			</xRayTube>
+			<filter id="20010004" name="Beta-filter Nickel">
+				<material>Ni</material>
+				<thickness unit="mm">0.020</thickness>
+			</filter>
+			<sollerSlit id="21010001" name="Soller slits 0.02 rad.">
+				<opening unit="rad">0.0200</opening>
+			</sollerSlit>
+			<mask id="22210002" name="2D Mask">
+				<width unit="mm">1.60</width>
+			</mask>
+			<divergenceSlit id="22120004" name="Divergence slit 1/8°" xsi:type="fixedDivergenceSlitType">
+				<distanceToSample unit="mm">50.00</distanceToSample>
+				<height unit="mm">0.19</height>
+			</divergenceSlit>
+		</incidentBeamPath>
+		<beamKnife id="29030101" name="Beam knife high"/>
+		<sampleMovement xsi:type="spinningSampleMovementType">
+			<spinnerRevolutionTime unit="seconds">1.0</spinnerRevolutionTime>
+		</sampleMovement>
+		<diffractedBeamPath>
+			<radius unit="mm">145.00</radius>
+			<parallelPlateCollimator id="25020001" name="Parallel plate collimator 0.28°">
+				<opening unit="deg">0.28</opening>
+			</parallelPlateCollimator>
+			<detector id="7010020" name="PIXcel3D-Medipix3 1x1 detector" xsi:type="areaDetectorType">
+				<phd unit="keV">
+					<lowerLevel>4.0</lowerLevel>
+					<upperLevel>11.3</upperLevel>
+				</phd>
+				<mode>Static</mode>
+				<activeChannelsEquatorial>255</activeChannelsEquatorial>
+				<activeChannelsAxial>255</activeChannelsAxial>
+				<pitchEquatorial unit="mm">0.05500</pitchEquatorial>
+				<pitchAxial unit="mm">0.05500</pitchAxial>
+				<readOutPeriod unit="seconds">0.050</readOutPeriod>
+			</detector>
+		</diffractedBeamPath>
+		<scan appendNumber="0" mode="Continuous" scanAxis="2Theta" status="Completed">
+			<header>
+				<startTimeStamp>2025-05-13T07:20:15-08:00</startTimeStamp>
+				<endTimeStamp>2025-05-13T07:22:19-08:00</endTimeStamp>
+				<author>
+					<name>Instrument</name>
+				</author>
+				<source>
+					<applicationSoftware version="1.6 (94)">PANalytical Aeris Instrument Suite</applicationSoftware>
+					<instrumentControlSoftware version="3.0.0 20211014">AERIS</instrumentControlSoftware>
+					<instrumentID>2855484</instrumentID>
+				</source>
+			</header>
+			<dataPoints>
+				<positions axis="2Theta" unit="deg">
+					<listPositions>63.47305604 63.49473900 63.51642275 63.53810727 63.55979256 63.58147862 63.60316544 63.62485302 63.64654134 63.66823040 63.68992020 63.71161072 63.73330197 63.75499394 63.77668661 63.79837999 63.82007407 63.84176884 63.86346429 63.88516042 63.90685723 63.92855471 63.95025284 63.97195163 63.99365107 64.01535115 64.03705186 64.05875321 64.08045518 64.10215776 64.12386096 64.14556476 64.16726916 64.18897416 64.21067974 64.23238590 64.25409263 64.27579993 64.29750780 64.31921622 64.34092518 64.36263470 64.38434474 64.40605532 64.42776642 64.44947804 64.47119018 64.49290281 64.51461595 64.53632958 64.55804370 64.57975829 64.60147337 64.62318891 64.64490491 64.66662137 64.68833828 64.71005563 64.73177342 64.75349164 64.77521028 64.79692934 64.81864882 64.84036870 64.86208898 64.88380965 64.90553071 64.92725216 64.94897397 64.97069616 64.99241871 65.01414161 65.03586487 65.05758847 65.07931240 65.10103667 65.12276126 65.14448617 65.16621139 65.18793692 65.20966275 65.23138887 65.25311528 65.27484197 65.29656894 65.31829617 65.34002367 65.36175143 65.38347943 65.40520768 65.42693616 65.44866488 65.47039382 65.49212298 65.51385235 65.53558193 65.55731171 65.57904169 65.60077185 65.62250219 65.64423271 65.66596339 65.68769424 65.70942525 65.73115640 65.75288770 65.77461914 65.79635070 65.81808240 65.83981421 65.86154613 65.88327816 65.90501029 65.92674252 65.94847483 65.97020722 65.99193969 66.01367222 66.03540482 66.05713748 66.07887019 66.10060293 66.12233572 66.14406854 66.16580138 66.18753424 66.20926712 66.23100000 66.25273288 66.27446576 66.29619862 66.31793146 66.33966428 66.36139707 66.38312981 66.40486252 66.42659518 66.44832778 66.47006031 66.49179278 66.51352517 66.53525748 66.55698971 66.57872184 66.60045387 66.62218579 66.64391760 66.66564930 66.68738086 66.70911230 66.73084360 66.75257475 66.77430576 66.79603661 66.81776729 66.83949781 66.86122815 66.88295831 66.90468829 66.92641807 66.94814765 66.96987702 66.99160618 67.01333512 67.03506384 67.05679232 67.07852057 67.10024857 67.12197633 67.14370383 67.16543106 67.18715803 67.20888472 67.23061113 67.25233725 67.27406308 67.29578861 67.31751383 67.33923874 67.36096333 67.38268760 67.40441153 67.42613513 67.44785839 67.46958129 67.49130384 67.51302603 67.53474784 67.55646929 67.57819035 67.59991102 67.62163130 67.64335118 67.66507066 67.68678972 67.70850836 67.73022658 67.75194437 67.77366172 67.79537863 67.81709509 67.83881109 67.86052663 67.88224171 67.90395630 67.92567042 67.94738405 67.96909719 67.99080982 68.01252196 68.03423358 68.05594468 68.07765526 68.09936530 68.12107482 68.14278378 68.16449220 68.18620007 68.20790737 68.22961410 68.25132026 68.27302584 68.29473084 68.31643524 68.33813904 68.35984224 68.38154482 68.40324679 68.42494814 68.44664885 68.46834893 68.49004837 68.51174716 68.53344529 68.55514277 68.57683958 68.59853571 68.62023116 68.64192593 68.66362001 68.68531339 68.70700606 68.72869803 68.75038928 68.77207980 68.79376960 68.81545866 68.83714698 68.85883456 68.88052138 68.90220744 68.92389273 68.94557725 68.96726100 68.98894396</listPositions>
+				</positions>
+				<positions axis="Omega" unit="deg">
+					<commonPosition>5.000</commonPosition>
+				</positions>
+				<commonCountingTime unit="seconds">105.600</commonCountingTime>
+				<counts unit="counts">7 5 4 4 6 2 5 3 4 7 7 5 8 4 7 1 6 0 7 3 3 2 6 7 11 5 3 6 7 2 2 4 6 3 5 3 4 6 9 7 1 5 6 7 10 6 7 9 4 7 3 5 5 12 4 9 8 11 5 9 3 8 9 4 1 2 6 5 8 2 5 4 4 4 5 2 4 5 6 4 8 6 7 3 9 4 5 10 2 2 5 9 8 5 6 3 9 7 4 8 9 8 5 12 9 9 4 10 5 0 7 7 8 2 6 5 1 2 6 7 5 7 3 8 8 5 9 7 5 6 9 5 7 6 3 2 3 2 6 5 1 2 3 5 3 3 3 4 2 4 3 1 4 2 3 3 5 2 2 2 2 4 3 4 3 2 2 1 0 1 1 2 2 5 0 0 1 1 0 1 4 3 1 0 0 0 0 0 0 1 0 1 0 2 0 1 0 0 1 0 1 0 0 0 1 0 0 1 1 1 0 1 0 0 0 2 0 0 1 0 0 2 0 0 0 0 0 0 0 0 0 0 4 2 2 0 2 0 3 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 1</counts>
+			</dataPoints>
+		</scan>
+	</xrdMeasurement>
+</xrdMeasurements>
