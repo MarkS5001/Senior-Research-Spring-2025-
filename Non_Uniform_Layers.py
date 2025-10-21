@@ -5,7 +5,7 @@ import os
 """
 This script processes X-ray diffraction (XRD) data for non-uniform layers, 
 applying corrections to the layer mixture, calculating the index of refraction, 
-attenuation coefficients, and corrected depths. It reads data from a excel file 
+attenuation coefficients, and corrected depths. It reads data from an excel file 
 previously created, performs calculations, and stores the results in a new excel file.
 
 Mark Smith
