@@ -33,7 +33,7 @@ def XRD_Data_Dictionary(path_name: str): # Gets position and intensity from file
     os.chdir(path_name) # Change the current working directory to the specified path
     
     # Inputs to get from the user (or to hardcode in options)
-    omega_in_file_name = 'y' # input('Are the omega values in the file names followed by a w? (y/n): ').strip().lower() # This allows for automatic omega extraction (highly reccommended)
+    omega_in_file_name = 'y' # input('Are the omega values in the file names followed by a w? (y/n): ').strip().lower() # This allows for automatic omega extraction (highly recommended)
     normalize_choice = 'n' # input("Do you want to normalize the intensity data? (y/n): ").strip().lower()  # Ask the user if they want to normalize the intensity data
     smooth = 'n' # input("Do you want to smooth the data? (y/n): ").strip().lower()  # Ask the user if they want to smooth the data
     if smooth == 'y':
@@ -274,7 +274,7 @@ def Peak_fit(data: dict, background: bool = True): # Fit the peaks to a Gaussian
                     elif 'crystalline' in frame.line:
                         print("The crystalline range caused the error")
                     else:
-                        print("Unforseen error occured on line ", frame.lineno)
+                        print("Unforeseen error occurred on line ", frame.lineno)
                         # print(f"Error occurred on line {frame.lineno}: {frame.line}") # This will show the line where the error happened
 
                     break
@@ -533,7 +533,7 @@ def uncertainties(data: dict):
     # Unpack data
     for file_name, file_data in data.items():
 
-        # # Unpack amorphous
+        # Unpack amorphous
         amplitude_amorphous = file_data['amorphous_fit_amplitude']
         amplitude_amorphous_uncertainty = file_data['amorphous_fit_amplitude_uncertainty']
         mean_amorphous = file_data['amorphous_fit_mean']
@@ -543,7 +543,7 @@ def uncertainties(data: dict):
         background_amorphous = file_data['amorphous_fit_background']
         background_amorphous_uncertainty = file_data['amorphous_fit_background_uncertainty']
 
-        # # Unpack Crystalline
+        # Unpack Crystalline
         amplitude_crystalline = file_data['crystalline_fit_amplitude']
         amplitude_crystalline_uncertainty = file_data['crystalline_fit_amplitude_uncertainty']
         mean_crystalline = file_data['crystalline_fit_mean']
@@ -553,7 +553,7 @@ def uncertainties(data: dict):
         background_crystalline = file_data['crystalline_fit_background']
         background_crystalline_uncertainty = file_data['crystalline_fit_background_uncertainty']
         
-        # # Unpack things that are shared
+        # Unpack things that are shared
         amorphous_area = file_data['amorphous_area']
         crystalline_area = file_data['crystalline_area']
         amorphous_area_sum = file_data['amorphous_area_sum']
@@ -644,7 +644,7 @@ def Plot_Peak_Fit(data: dict):
     """ 
 
     num_files = len(data)
-    grid_size = int(np.ceil(np.sqrt(num_files)))  # e.g., 3 for 9 files
+    grid_size = int(np.ceil(np.sqrt(num_files)))  # e.g., 3 by 3 for 9 files
 
     fig, axes = plt.subplots(grid_size, grid_size, figsize=(5*grid_size, 4*grid_size))
     fig.suptitle("Fitted Peaks for All Files", fontsize=16)
