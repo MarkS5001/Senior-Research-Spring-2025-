@@ -235,7 +235,7 @@ def Depth_Calculation(data: dict):
                     if index > len(path_length_check): # Stop if index exceeds length
                         break
 
-                    current_path_length_check_value = path_length_check[index] # Update new check requirment
+                    current_path_length_check_value = path_length_check[index] # Update new check requirement
                     alpha = attenuation_coefficient[index] # Update new alpha value
                     intensity_attenuation = Irradiance(alpha, dy) # Calculate new intensity attenuation
 
