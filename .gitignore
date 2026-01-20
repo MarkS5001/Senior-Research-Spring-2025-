@@ -1,0 +1,5 @@
+*.bbl
+*.aux
+*.gz
+*.minted
+settings.json
