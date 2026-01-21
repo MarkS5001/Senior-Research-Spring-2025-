@@ -2,4 +2,6 @@
 *.aux
 *.gz
 *.minted
+*.synctex.gz
 settings.json
+*.data.minted
