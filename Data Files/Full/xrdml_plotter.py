@@ -9,14 +9,14 @@ angles = np.linspace(0.04,128.92,len(data45))
 
 fig, (ax1, ax2, ax3) = plt.subplots(3, 1, sharex=True, sharey=True)
 
-ax1.plot(angles, data45, label = "45")
-ax1.set_title("45 degree")
+ax1.plot(angles,data00, label = "0")
+ax1.set_title("00 degree")
 
-ax2.plot(angles, data90, label = "90")
-ax2.set_title("90 degree")
+ax2.plot(angles, data45, label = "45")
+ax2.set_title("45 degree")
 
-ax3.plot(angles,data00, label = "0")
-ax3.set_title("00 degree")
+ax3.plot(angles, data90, label = "90")
+ax3.set_title("90 degree")
 
 fig.supylabel('Intensity (counts)')
 fig.supxlabel('Angle (°)')
