@@ -33,11 +33,11 @@ def XRD_Data_Dictionary(path_name: str): # Gets position and intensity from file
     os.chdir(path_name) # Change the current working directory to the specified path
     
     # Inputs to get from the user (or to hardcode in options)
-    omega_in_file_name = 'y' # input('Are the omega values in the file names followed by a w? (y/n): ').strip().lower() # This allows for automatic omega extraction (highly recommended)
-    normalize_choice = 'n' # input("Do you want to normalize the intensity data? (y/n): ").strip().lower()  # Ask the user if they want to normalize the intensity data
+    omega_in_file_name = input('Are the omega values in the file names followed by a w? (y/n): ').strip().lower() #'y' This allows for automatic omega extraction (highly recommended)
+    normalize_choice = input("Do you want to normalize the intensity data? (y/n): ").strip().lower()  #'n' Ask the user if they want to normalize the intensity data
     smooth = 'n' # input("Do you want to smooth the data? (y/n): ").strip().lower()  # Ask the user if they want to smooth the data
     if smooth == 'y':
-        how_smooth = 25 # int(input("How many points do you want to smooth over? (e.g., 25): "))  # Ask the user how many points to smooth over
+        how_smooth = int(input("How many points do you want to smooth over? (e.g., 25): "))  #25 Ask the user how many points to smooth over
     
     for file in os.listdir(path_name): # Iterate through each file in the directory
         if file.endswith('.csv'): # Process only CSV files
@@ -102,10 +102,10 @@ def Length_Peak(data: dict): # Just gets the peak ranges
     Returns:
         dict: The updated dictionary with amorphous and crystalline ranges added for each file.
     """
-    manual_input = 'no' # input("Do you want to manually input the ranges? (yes/no): ").strip().lower()  # Ask the user if they want to manually input the ranges
+    manual_input = input("Do you want to manually input the ranges? (yes/no): ").strip().lower()  #'no' Ask the user if they want to manually input the ranges
 
     if manual_input == 'no':
-        peak_range_file = 'Peak_Ranges.txt' # input("Enter the file name containing the peak ranges (e.g., 'peak_ranges.txt'): ")
+        peak_range_file = input("Enter the file name containing the peak ranges (e.g., 'peak_ranges.txt'): ") #'Peak_Ranges.txt'
         peak_ranges = pd.read_csv(peak_range_file)  # Read the peak ranges from the specified file
 
     for file_name in data.keys():
@@ -669,7 +669,7 @@ def Plot_Peak_Fit(data: dict):
             file_data['amorphous_fit_std_dev'],
             background = file_data['amorphous_fit_background']
         )
-        ax.plot(x_values_amorphous, y_values_amorphous, label='Amorphous Fit', color='orange')
+        ax.plot(x_values_amorphous, y_values_amorphous, label='Amorphous Fit', color='red')
 
         # Plot the crystalline fit
         x_values_crystalline = file_data['crystalline_fit_crystalline_x_range_used']
@@ -769,9 +769,9 @@ def Line_Graph(data: dict):
 
 if __name__ == "__main__":
 
-    material = input("p, p01, or dt: ")
+    # material = input("p, p01, or dt: ")
 
-    path_name = f'E://Full//{material} csv' # input("Enter the path to the XRD data folder: ").strip()  # Get the path to the XRD data files from the user
+    path_name = input("Enter the path to the XRD data folder: ").strip()#"C://Users//markb//OneDrive - BYU-Idaho//BYUI//Research Teams//Thin//Senior-Research-Spring-2025-//Data Files//Full//p01 csv"# f'E://Full//{material} csv' # input("Enter the path to the XRD data folder: ").strip()  # Get the path to the XRD data files from the user
 
     try:
         data = Peak_Area_Fitting(path_name)  # Call the main function with the path to the XRD data files
