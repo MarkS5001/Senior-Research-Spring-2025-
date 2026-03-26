@@ -1,26 +1,45 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-data45 = np.genfromtxt("Data Files\Full\MSS p (0-129, 3w)_45rotation.txt")
-data90 = np.genfromtxt("Data Files\Full\MSS p (0-129, 3w)_90rotation.txt")
-data00 = np.genfromtxt("Data Files\Full\MSS p (0-129, 3w).txt")
+def multiple():
+    data45 = np.genfromtxt("Data Files\Full\MSS p (0-129, 3w)_45rotation.txt")
+    data90 = np.genfromtxt("Data Files\Full\MSS p (0-129, 3w)_90rotation.txt")
+    data00 = np.genfromtxt("Data Files\Full\MSS p (0-129, 3w).txt")
 
-angles = np.linspace(0.04,128.92,len(data45))
+    angles = np.linspace(0.04,128.92,len(data45))
 
-fig, (ax1, ax2, ax3) = plt.subplots(3, 1, sharex=True, sharey=True)
+    fig, (ax1, ax2, ax3) = plt.subplots(3, 1, sharex=True, sharey=True)
 
-ax1.plot(angles,data00, label = "0")
-ax1.set_title("00 degree")
+    ax1.plot(angles,data00, label = "0")
+    ax1.set_title("00 degree")
 
-ax2.plot(angles, data45, label = "45")
-ax2.set_title("45 degree")
+    ax2.plot(angles, data45, label = "45")
+    ax2.set_title("45 degree")
 
-ax3.plot(angles, data90, label = "90")
-ax3.set_title("90 degree")
+    ax3.plot(angles, data90, label = "90")
+    ax3.set_title("90 degree")
 
-fig.supylabel('Intensity (counts)')
-fig.supxlabel('Angle (°)')
-plt.yscale('log')
-plt.tight_layout()
-plt.savefig("Comparison_of_Sample_preferred_Orientation_3w.svg")
-# plt.show()
+    fig.supylabel('Intensity (counts)')
+    fig.supxlabel('Angle (°)')
+    plt.yscale('log')
+    plt.tight_layout()
+    plt.savefig("Comparison_of_Sample_preferred_Orientation_3w.svg")
+    # plt.show()
+
+def single():
+    data = np.genfromtxt("Data Files\Full\MSS t (0-129, 1w, 0D).txt")[100:]
+
+    angles = np.linspace(0.04,128.92,len(data))
+
+    plt.figure(figsize=(5,3))
+    plt.plot(angles,data)
+    plt.title("XRD Diffractogram")
+
+    plt.ylabel('Intensity (counts)')
+    plt.xlabel('Angle (°)')
+    plt.yscale('log')
+    plt.tight_layout()
+    plt.savefig("XRD Diffractogram.svg")
+    # plt.show()
+
+single()
